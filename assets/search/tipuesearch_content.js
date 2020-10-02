@@ -665,7 +665,7 @@ var tipuesearch = {"pages": [{
     "url": "/WAI/videos/standards-and-benefits/changelog/"
   },{
     "title": "Changelog",
-    "text": "2020-September-12 In Captions page, corrected: “Subtitles/interlingual subtitles are usually only the spoken audio (for people who can hear the audio but do not know the spoken language).” 2019-November-18 Clarified and corrected WCAG requirements in: Checklists for Audio and Video section of Planning Audio and Video Media page Tables in WCAG Standard section of Planning Audio and Video Media page Does My Media Need Captions? section of Captions/Subtitles page Does My Media Need a Transcript? section of Transcripts page",
+    "text": "2020-October-1 In Audio Content and Video Content page, added missing WCAG to: Plan for sign language – storyboarding, recording (WCAG AAA) Plan for audio description of visual information – storyboarding, recording (WCAG A, AA) (Diff 2020-October-1) 2020-September-12 In Captions page, corrected: “Subtitles/interlingual subtitles are usually only the spoken audio (for people who can hear the audio but do not know the spoken language).” 2019-November-18 Clarified and corrected WCAG requirements in: Checklists for Audio and Video section of Planning Audio and Video Media page Tables in WCAG Standard section of Planning Audio and Video Media page Does My Media Need Captions? section of Captions/Subtitles page Does My Media Need a Transcript? section of Transcripts page",
     "tags": "",
     "url": "/WAI/media/av/changelog/"
   },{
