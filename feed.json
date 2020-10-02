@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2020-09-16/XAUR/",
+            "title": "For Review: XR Accessibility User Requirements (XAUR) Updated Draft",
+            "summary": null,
+            "content_text": "An updated Working Draft of XR Accessibility User Requirements (XAUR) is now available for review. XAUR describes the needs of people with disabilities in virtual or immersive environments (XR). It includes requirements for XR to be accessible. XAUR is for designers and developers who are involved in creating XR experiences. It is also useful for anyone who wants to better understand XR accessibility. We would particularly like input on any user needs or requirements that are missing from this draft. For more information, see the XAUR review e-mail.",
+            "content_html": "<p>An updated Working Draft of <a href=\"https://www.w3.org/TR/xaur/\">XR Accessibility User Requirements (XAUR)</a> is now available for review. XAUR describes the needs of people with disabilities in virtual or immersive environments (XR). It includes requirements for XR to be accessible. XAUR is for designers and developers who are involved in creating XR experiences. It is also useful for anyone who wants to better understand XR accessibility. We would particularly like input on any user needs or requirements that are missing from this draft. For more information, see the <a href=\"https://lists.w3.org/Archives/Public/public-wai-announce/2020OctDec/0000.html\">XAUR review e-mail</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2020-09-16/XAUR/",
+            
+            
+            
+            
+            
+            "date_published": "2020-09-16T00:00:00+00:00",
+            "date_modified": "2020-09-16T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2020-08-24/WAI-Tools_meeting_September/",
             "title": "Invitation: WAI-Tools Online Meeting 22 September 2020",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2018-10-18T00:00:00+00:00",
             "date_modified": "2018-10-18T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2018-09-13/WCAG-21-EN301549/",
-            "title": "WCAG 2.1 adopted in European standard EN 301 549 for ICT",
-            "summary": null,
-            "content_text": "European standard EN 301 549 “Accessibility requirements for ICT products and services” is updated to adopt Web Content Accessibility Guidelines (WCAG) 2.1 for information and communications technology (ICT) including:  web content  electronic documents  non-web software, such as native mobile appsSee more information in the blog post WCAG 2.1 Adoption in Europe.",
-            "content_html": "<p>European standard EN 301 549 “Accessibility requirements for ICT products and services” is updated to adopt Web Content Accessibility Guidelines (<a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/\">WCAG</a>) 2.1 for information and communications technology (ICT) including:</p><ul>  <li>web content</li>  <li>electronic documents</li>  <li>non-web software, such as native mobile apps</li></ul><p>See more information in the blog post <a href=\"https://www.w3.org/blog/2018/09/wcag-2-1-adoption-in-europe/\">WCAG 2.1 Adoption in Europe</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2018-09-13/WCAG-21-EN301549/",
-            
-            
-            
-            
-            
-            "date_published": "2018-09-13T10:00:00+00:00",
-            "date_modified": "2018-09-13T10:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
