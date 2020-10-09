@@ -617,6 +617,7 @@
 /pages/wcag-act-rules/glossary/outcome.md
 /pages/wcag-act-rules/glossary/programmatic-label.md
 /pages/wcag-act-rules/glossary/semantic-role.md
+/pages/wcag-act-rules/glossary/valid-language-tag.md
 /pages/wcag-act-rules/glossary/visible.md
 /pages/wcag-act-rules/glossary/wai-aria-specifications.md
 /pages/wcag-act-rules/glossary/whitespace.md

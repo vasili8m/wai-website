@@ -9,15 +9,15 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1601672670285874764";
+      element.src = "/WAI/assets/scripts/main.js?1602246300617992104";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1601672670285874764">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1602246300617992104">
 
-<title> HTML page has `lang` attribute | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title> HTML page has lang attribute | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.6.1 -->
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="HTML page has lang attribute" />
 <meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
@@ -32,7 +32,7 @@
 <meta name="twitter:site" content="@w3c_wai" />
 <meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
 <script type="application/ld+json">
-{"description":"The Website of the World Wide Web Consortium’s Web Accessibility Initiative.","headline":"HTML page has lang attribute","@type":"WebPage","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/html-page-lang-b5c3f8/","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"@context":"https://schema.org"}</script>
+{"description":"The Website of the World Wide Web Consortium’s Web Accessibility Initiative.","@type":"WebPage","headline":"HTML page has lang attribute","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/html-page-lang-b5c3f8/","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
 
@@ -125,17 +125,17 @@
 
   <main id="main" lang="en">
     <header>
-      <h1>HTML page has `lang` attribute</h1></header><dl>
+      <h1>HTML page has lang attribute</h1></header><dl>
   <dt>Rule Type:</dt>
   <dd>atomic</dd>
   <dt>Rule ID:</dt>
   <dd>b5c3f8</dd>
-  <dt>Last modified:</dt>
+  <dt>Last Modified:</dt>
   <dd>March 5, 2020</dd>
-  <dt>Accessibility Requirements Mapping</dt>
+  <dt>Accessibility Requirements Mapping:</dt>
   <dd><a href="https://www.w3.org/TR/WCAG21/#language-of-page">3.1.1 Language of Page (Level A)</a>
     <ul>
-      <li><strong>Required for conformance</strong> to WCAG 2.0 and above on level A and above</li>
+      <li><strong>Required for conformance</strong> to WCAG 2.0 and later on level A and higher</li>
       <li><a href="#outcome">Outcome</a> mapping:
         <ul>
           <li>Any <code class="language-plaintext highlighter-rouge">failed</code> outcomes: success criterion is not satisfied</li>
@@ -145,9 +145,9 @@
       </li>
     </ul>
   </dd>
-  <dd><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H57">H57: Using the language attribute on the HTML element</a>
+  <dd><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H57">H57: Using language attributes on the html element</a>
     <ul>
-      <li><strong>Required for conformance</strong> to WCAG 2.0 and above on level A and above</li>
+      <li>Not required to conformance to any W3C accessibility recommendation.</li>
       <li><a href="#outcome">Outcome</a> mapping:
         <ul>
           <li>Any <code class="language-plaintext highlighter-rouge">failed</code> outcomes: technique is not satisfied</li>
@@ -157,7 +157,7 @@
       </li>
     </ul>
   </dd>
-  <dt>Input Aspects</dt>
+  <dt>Input Aspects:</dt>
   <dd><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-dom">DOM Tree</a></dd>
 </dl>
 
@@ -258,7 +258,7 @@
 
 <h3 id="outcome">Outcome</h3>
 
-<p>A conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> or one of its constituent <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. An outcome can be one of the three following types:</p>
+<p>An <em>outcome</em> is a conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> or one of its constituent <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. An outcome can be one of the three following types:</p>
 
 <ul>
   <li><strong>Inapplicable:</strong> No part of the test subject matches the applicability</li>
@@ -266,27 +266,36 @@
   <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
 </ul>
 
-<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one inapplicable outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
+<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
 
-<p><strong>Note:</strong> Implementers using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the incomplete outcome.</p>
+<p><strong>Note:</strong> Implementations using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the <code class="language-plaintext highlighter-rouge">incomplete</code> outcome.</p>
 
 <h2 id="acknowledgements">Acknowledgements</h2>
 
-<h3 id="authors">Authors</h3>
+<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules community group</a>, 
+with the support of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>.</p>
 
-<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules community group</a>, by:</p>
+<h3 id="authors">Authors</h3>
 
 <ul>
   <li><a href="https://github.com/jkodu">Jey Nandakumar</a></li>
-  <li><a href="https://github.com/annika-FTB">Annika Nietzio</a> (previous author)</li>
 </ul>
 
-<p>Developed with the support of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>.</p>
+<h3 id="previous-authors">Previous Authors</h3>
+
+<ul>
+  <li><a href="https://github.com/annika-FTB">Annika Nietzio</a></li>
+</ul>
+
+<h2 id="changelog">Changelog</h2>
+
+<p>This is the first version of this ACT rule.</p>
 
 
-    <aside class="box box-icon box-space-above" id="helpimprove"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:wai-eo-editors@w3.org?subject=[en]%20HTML%20page%20has%20%60lang%60%20attribute">wai-eo-editors@w3.org</a> or via GitHub.</p>
+
+    <aside class="box box-icon box-space-above" id="helpimprove"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:wai-eo-editors@w3.org?subject=[en]%20HTML%20page%20has%20lang%20attribute">wai-eo-editors@w3.org</a> or via GitHub.</p>
 <div class="button-group">
-    <a href="mailto:wai-eo-editors@w3.org?subject=[en]%20HTML%20page%20has%20%60lang%60%20attribute&body=[put%20comment%20here...]" class="button"><span>E-mail</span></a>
+    <a href="mailto:wai-eo-editors@w3.org?subject=[en]%20HTML%20page%20has%20lang%20attribute&body=[put%20comment%20here...]" class="button"><span>E-mail</span></a>
     <a href="https://github.com/w3c/wcag-act-rules/edit/master/content/html-page-lang-b5c3f8.md"  class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/wcag-act-rules/issues/new" class="button"><span>New GitHub Issue</span></a>
 </div></div></aside>
 
@@ -329,9 +338,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1601672670285874764"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1602246300617992104"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1601672670285874764"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1602246300617992104"></script>
 <script>
   svg4everybody();
 </script><script>

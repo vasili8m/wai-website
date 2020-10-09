@@ -9,13 +9,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1601672670285874764";
+      element.src = "/WAI/assets/scripts/main.js?1602246300617992104";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1601672670285874764">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1602246300617992104">
 
 <title> HTML page lang attribute has valid language tag | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.6.1 -->
 <meta name="generator" content="Jekyll v3.9.0" />
@@ -32,7 +32,7 @@
 <meta name="twitter:site" content="@w3c_wai" />
 <meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
 <script type="application/ld+json">
-{"description":"The Website of the World Wide Web Consortium’s Web Accessibility Initiative.","headline":"HTML page lang attribute has valid language tag","@type":"WebPage","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/html-page-lang-valid-bf051a/","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"@context":"https://schema.org"}</script>
+{"description":"The Website of the World Wide Web Consortium’s Web Accessibility Initiative.","@type":"WebPage","headline":"HTML page lang attribute has valid language tag","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/html-page-lang-valid-bf051a/","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
 
@@ -130,12 +130,12 @@
   <dd>atomic</dd>
   <dt>Rule ID:</dt>
   <dd>bf051a</dd>
-  <dt>Last modified:</dt>
-  <dd>June 9, 2020</dd>
-  <dt>Accessibility Requirements Mapping</dt>
+  <dt>Last Modified:</dt>
+  <dd>Oct 6, 2020</dd>
+  <dt>Accessibility Requirements Mapping:</dt>
   <dd><a href="https://www.w3.org/TR/WCAG21/#language-of-page">3.1.1 Language of Page (Level A)</a>
     <ul>
-      <li><strong>Required for conformance</strong> to WCAG 2.0 and above on level A and above</li>
+      <li><strong>Required for conformance</strong> to WCAG 2.0 and later on level A and higher</li>
       <li><a href="#outcome">Outcome</a> mapping:
         <ul>
           <li>Any <code class="language-plaintext highlighter-rouge">failed</code> outcomes: success criterion is not satisfied</li>
@@ -145,9 +145,9 @@
       </li>
     </ul>
   </dd>
-  <dd><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H57">H57: Using the language attribute on the HTML element</a>
+  <dd><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H57">H57: Using language attributes on the html element</a>
     <ul>
-      <li><strong>Required for conformance</strong> to WCAG 2.0 and above on level A and above</li>
+      <li>Not required to conformance to any W3C accessibility recommendation.</li>
       <li><a href="#outcome">Outcome</a> mapping:
         <ul>
           <li>Any <code class="language-plaintext highlighter-rouge">failed</code> outcomes: technique is not satisfied</li>
@@ -157,13 +157,13 @@
       </li>
     </ul>
   </dd>
-  <dt>Input Aspects</dt>
+  <dt>Input Aspects:</dt>
   <dd><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-dom">DOM Tree</a></dd>
 </dl>
 
 <h2 id="description">Description</h2>
 
-<p>This rule checks that the <code class="language-plaintext highlighter-rouge">lang</code> attribute of the root element of an HTML page has a language tag with a known primary language subtag.</p>
+<p>This rule checks that the <code class="language-plaintext highlighter-rouge">lang</code> attribute of the root element of a non-embedded HTML page has a language tag with a known primary language subtag.</p>
 
 <h2 id="applicability">Applicability</h2>
 
@@ -175,11 +175,9 @@
   <li>has a <a href="https://dom.spec.whatwg.org/#concept-node-document">node document</a> with a <a href="https://dom.spec.whatwg.org/#concept-document-content-type">content type</a> of <code class="language-plaintext highlighter-rouge">text/html</code>.</li>
 </ul>
 
-<p><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">html</code> elements within <code class="language-plaintext highlighter-rouge">iframe</code> and <code class="language-plaintext highlighter-rouge">object</code> elements are not applicable as <code class="language-plaintext highlighter-rouge">iframe</code> and <code class="language-plaintext highlighter-rouge">object</code> elements create <a href="https://html.spec.whatwg.org/#nested-browsing-context">nested browsing contexts</a>. These elements can embed any third party content, making testing difficult. As these elements are meant to provide a layer of isolation, the language of the <a href="https://html.spec.whatwg.org/#parent-browsing-context">parent browsing context</a> may not be inherited. Thus, embedded documents with an invalid <code class="language-plaintext highlighter-rouge">lang</code> attribute can cause accessibility issues. This should be tested separately.</p>
-
 <h2 id="expectation">Expectation</h2>
 
-<p>For each test target, the <code class="language-plaintext highlighter-rouge">lang</code> attribute has a [valid language tag][].</p>
+<p>For each test target, the <code class="language-plaintext highlighter-rouge">lang</code> attribute has a <a href="#valid-language-tag" title="Definition of valid language tag">valid language tag</a>.</p>
 
 <h2 id="assumptions">Assumptions</h2>
 
@@ -201,6 +199,8 @@
 
 <h2 id="background">Background</h2>
 
+<p>This rule is only applicable to non-embedded HTML pages. HTML pages embedded into other documents, such as through <code class="language-plaintext highlighter-rouge">iframe</code> or <code class="language-plaintext highlighter-rouge">object</code> elements are not applicable because they are not <a href="https://www.w3.org/TR/WCAG21/#dfn-web-page-s">web pages</a> according to the definition in WCAG.</p>
+
 <ul>
   <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html">Understanding Success Criterion 3.1.1: Language of Page</a></li>
   <li><a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H57">H57: Using language attributes on the html element</a></li>
@@ -214,14 +214,14 @@
 
 <h4 id="passed-example-1">Passed Example 1</h4>
 
-<p>This <code class="language-plaintext highlighter-rouge">html</code> element has a <code class="language-plaintext highlighter-rouge">lang</code> attribute whose value is a [valid]<a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">valid language tag</a>[].</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has a <code class="language-plaintext highlighter-rouge">lang</code> attribute whose value is a <a href="#valid-language-tag" title="Definition of valid language tag">valid</a> <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtag</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"fr"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <h4 id="passed-example-2">Passed Example 2</h4>
 
-<p>This <code class="language-plaintext highlighter-rouge">html</code> element has a <code class="language-plaintext highlighter-rouge">lang</code> attribute value that is a [valid language tag][] even though the <a href="https://tools.ietf.org/html/bcp47#section-2.2.4" title="Definition of region subtag">region subtag</a> is not.</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has a <code class="language-plaintext highlighter-rouge">lang</code> attribute value that is a <a href="#valid-language-tag" title="Definition of valid language tag">valid language tag</a> even though the <a href="https://tools.ietf.org/html/bcp47#section-2.2.4" title="Definition of region subtag">region subtag</a> is not.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en-US-GB"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
@@ -230,14 +230,14 @@
 
 <h4 id="failed-example-1">Failed Example 1</h4>
 
-<p>This <code class="language-plaintext highlighter-rouge">html</code> element has a <code class="language-plaintext highlighter-rouge">lang</code> attribute whose value is not a [valid language tag][].</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has a <code class="language-plaintext highlighter-rouge">lang</code> attribute whose value is not a <a href="#valid-language-tag" title="Definition of valid language tag">valid language tag</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"em-US"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
 
 <h4 id="failed-example-2">Failed Example 2</h4>
 
-<p>This <code class="language-plaintext highlighter-rouge">html</code> element has a <code class="language-plaintext highlighter-rouge">lang</code> attribute whose value is not a [valid language tag][].</p>
+<p>This <code class="language-plaintext highlighter-rouge">html</code> element has a <code class="language-plaintext highlighter-rouge">lang</code> attribute whose value is not a <a href="#valid-language-tag" title="Definition of valid language tag">valid language tag</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"#1"</span><span class="nt">&gt;&lt;/html&gt;</span>
 </code></pre></div></div>
@@ -255,7 +255,7 @@
 
 <h3 id="outcome">Outcome</h3>
 
-<p>A conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> or one of its constituent <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. An outcome can be one of the three following types:</p>
+<p>An <em>outcome</em> is a conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> or one of its constituent <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. An outcome can be one of the three following types:</p>
 
 <ul>
   <li><strong>Inapplicable:</strong> No part of the test subject matches the applicability</li>
@@ -263,33 +263,39 @@
   <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
 </ul>
 
-<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one inapplicable outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
+<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
 
-<p><strong>Note:</strong> Implementers using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the incomplete outcome.</p>
+<p><strong>Note:</strong> Implementations using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the <code class="language-plaintext highlighter-rouge">incomplete</code> outcome.</p>
 
 <h3 id="valid-language-tag">Valid Language Tag</h3>
 
-<p>A language tag consists of a <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtag</a> from the <a href="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">language subtag registry</a>, optionally followed by a hyphen (<code class="language-plaintext highlighter-rouge">-</code>) and any sequence of characters.</p>
+<p>A <a href="https://tools.ietf.org/html/bcp47#section-2.1">language tag</a> is <em>valid</em> if its <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtag</a> exists in the <a href="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">language subtag registry</a> with a <a href="https://tools.ietf.org/html/bcp47#section-3.1.3">Type field</a> whose field-body value is <code class="language-plaintext highlighter-rouge">language</code>.</p>
 
-<p><em>Note:</em> This definition intentionally differs from the <a href="https://tools.ietf.org/html/bcp47#section-2.1">BCP 47</a> syntax as user agents and assistive technologies are more lenient in what they accept. The definition is however consistent with the behavior of the <code class="language-plaintext highlighter-rouge">:lang()</code> pseudo-selector as defined by <a href="https://drafts.csswg.org/selectors-3/#lang-pseudo">Selectors Level 3</a>. For example, <code class="language-plaintext highlighter-rouge">de-hello</code> would be an accepted way to indicate German in current user agents and assistive technologies, despite not being valid according to <a href="https://tools.ietf.org/html/bcp47#section-2.1">BCP 47</a>. As a consequence of this definition, however, <a href="https://tools.ietf.org/html/bcp47#section-2.2.8">grandfathered tags</a> are not correctly recognized as valid language subtags.</p>
+<p>A “language tag” is here to be understood as in the first paragraph of the <a href="https://tools.ietf.org/html/bcp47#section-2.1">BCP 47 language tag syntax</a>, i.e. a sequence of subtags separated by hyphens, where a subtag is any sequence of alphanumerical characters. Thus, this definition intentionally differs from the strict <a href="https://tools.ietf.org/html/bcp47#section-2.1">BCP 47 syntax</a> (and ABNF grammar) as user agents and assistive technologies are more lenient in what they accept. The definition is however consistent with the behavior of the <code class="language-plaintext highlighter-rouge">:lang()</code> pseudo-selector as defined by <a href="https://drafts.csswg.org/selectors-3/#lang-pseudo">Selectors Level 3</a>. For example, <code class="language-plaintext highlighter-rouge">de-hello</code> would be an accepted way to indicate German in current user agents and assistive technologies, despite not being valid according to <a href="https://tools.ietf.org/html/bcp47#section-2.1">BCP 47 grammar</a>. As a consequence of this definition, however, <a href="https://tools.ietf.org/html/bcp47#section-2.2.8">grandfathered tags</a> are not correctly recognized as valid language subtags.</p>
+
+<p>Subtags, notably the <a href="https://tools.ietf.org/html/bcp47#section-2.2.1" title="Definition of primary language subtag">primary language subtag</a>, are <a href="https://tools.ietf.org/html/bcp47#section-2.1.1">case insensitive</a>. Hence comparison with the <a href="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry">language subtag registry</a> must be done in a case insensitive way.</p>
 
 <h2 id="acknowledgements">Acknowledgements</h2>
 
-<h3 id="authors">Authors</h3>
+<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules community group</a>, 
+with the support of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>.</p>
 
-<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules community group</a>, by:</p>
+<h3 id="authors">Authors</h3>
 
 <ul>
   <li><a href="https://github.com/jkodu">Jey Nandakumar</a></li>
-  <li><a href="https://github.com/annika-FTB">Annika Nietzio</a> (previous author)</li>
 </ul>
 
-<p>Developed with the support of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>.</p>
+<h3 id="previous-authors">Previous Authors</h3>
+
+<ul>
+  <li><a href="https://github.com/annika-FTB">Annika Nietzio</a></li>
+</ul>
 
 <h2 id="changelog">Changelog</h2>
 
 <ul>
-  <li><strong>June 9th</strong>
+  <li><strong>October 6st</strong>
     <ul>
       <li>Rename definition “valid language subtag” to “valid language tag”</li>
       <li>Clarify the title</li>
@@ -344,9 +350,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1601672670285874764"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1602246300617992104"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1601672670285874764"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1602246300617992104"></script>
 <script>
   svg4everybody();
 </script><script>
