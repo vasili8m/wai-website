@@ -790,6 +790,7 @@
 /standards-guidelines/act/rules/image-button-accessible-name-59796f/index.html
 /standards-guidelines/act/rules/image-non-empty-accessible-name-23a2a8/index.html
 /standards-guidelines/act/rules/index.html
+/standards-guidelines/act/rules/link-non-empty-accessible-name-c487ae/index.html
 /standards-guidelines/act/rules/meta-viewport-b4f0c3/index.html
 /standards-guidelines/aria/index.html
 /standards-guidelines/atag/glance/index.html
