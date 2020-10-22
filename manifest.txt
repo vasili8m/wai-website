@@ -826,7 +826,7 @@
 /standards-guidelines/wcag/new-in-22/index.html
 /standards-guidelines/wcag/non-web-ict/index.html
 /standards-guidelines/wcag/translations/index.html
-/standards-guidelines/wcag/wcag3-intro.html
+/standards-guidelines/wcag/wcag3-intro/index.html
 /standards-guidelines/zh-hans.html
 /teach-advocate/accessibility-training/index.html
 /teach-advocate/accessibility-training/presentation-outlines/index.html
