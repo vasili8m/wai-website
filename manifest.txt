@@ -818,7 +818,9 @@
 /standards-guidelines/wcag/docs/index.html
 /standards-guidelines/wcag/es.html
 /standards-guidelines/wcag/faq/index.html
+/standards-guidelines/wcag/fr.html
 /standards-guidelines/wcag/glance/es.html
+/standards-guidelines/wcag/glance/fr.html
 /standards-guidelines/wcag/glance/index.html
 /standards-guidelines/wcag/index.html
 /standards-guidelines/wcag/new-in-21/es.html
