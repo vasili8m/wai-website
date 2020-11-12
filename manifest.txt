@@ -433,6 +433,7 @@
 /feed.json
 /feed.xml
 /fundamentals/accessibility-intro/ar.html
+/fundamentals/accessibility-intro/cs.html
 /fundamentals/accessibility-intro/es.html
 /fundamentals/accessibility-intro/fr.html
 /fundamentals/accessibility-intro/index.html
@@ -627,6 +628,7 @@
 /people-use-web/es.html
 /people-use-web/fr.html
 /people-use-web/index.html
+/people-use-web/mockup/index.html
 /people-use-web/tools-techniques/fr.html
 /people-use-web/tools-techniques/index.html
 /people-use-web/user-stories/es.html
@@ -795,6 +797,7 @@
 /standards-guidelines/aria/index.html
 /standards-guidelines/atag/glance/index.html
 /standards-guidelines/atag/index.html
+/standards-guidelines/cs.html
 /standards-guidelines/earl/index.html
 /standards-guidelines/es.html
 /standards-guidelines/evaluation/index.html
@@ -873,6 +876,7 @@
 /translations/index.html
 /videos/standards-and-benefits/ar.html
 /videos/standards-and-benefits/changelog/index.html
+/videos/standards-and-benefits/cs.html
 /videos/standards-and-benefits/de.html
 /videos/standards-and-benefits/el.html
 /videos/standards-and-benefits/es.html
