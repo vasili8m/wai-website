@@ -433,7 +433,7 @@
 /feed.json
 /feed.xml
 /fundamentals/accessibility-intro/ar.html
-/fundamentals/accessibility-intro/cs/index.html
+/fundamentals/accessibility-intro/cs.html
 /fundamentals/accessibility-intro/es.html
 /fundamentals/accessibility-intro/fr.html
 /fundamentals/accessibility-intro/index.html
@@ -451,6 +451,7 @@
 /fundamentals/components/ko.html
 /fundamentals/index.html
 /index.html
+/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -796,7 +797,7 @@
 /standards-guidelines/aria/index.html
 /standards-guidelines/atag/glance/index.html
 /standards-guidelines/atag/index.html
-/standards-guidelines/cs/index.html
+/standards-guidelines/cs.html
 /standards-guidelines/earl/index.html
 /standards-guidelines/es.html
 /standards-guidelines/evaluation/index.html
@@ -875,7 +876,7 @@
 /translations/index.html
 /videos/standards-and-benefits/ar.html
 /videos/standards-and-benefits/changelog/index.html
-/videos/standards-and-benefits/cs/index.html
+/videos/standards-and-benefits/cs.html
 /videos/standards-and-benefits/de.html
 /videos/standards-and-benefits/el.html
 /videos/standards-and-benefits/es.html
