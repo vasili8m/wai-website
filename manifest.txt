@@ -16,6 +16,7 @@
 /about/participating/index.html
 /about/projects/easy-reading/index.html
 /about/projects/index.html
+/about/projects/wai-coop/index.html
 /about/projects/wai-core-2015/index.html
 /about/projects/wai-guide/index.html
 /about/projects/wai-tools/first-open-meeting/index.html
@@ -319,6 +320,21 @@
 /content-images/wai-eval-overview/video-thumb-resources-overview.png
 /content-images/wai-eval-overview/video-thumb-tools.png
 /content-images/wai-eval-tools-overview/tools-for-evaluating-cc.vtt
+/content-images/wai-fundamentals-overview/andrew.png
+/content-images/wai-fundamentals-overview/anthony.png
+/content-images/wai-fundamentals-overview/carie.png
+/content-images/wai-fundamentals-overview/certificate.png
+/content-images/wai-fundamentals-overview/foundations-course-teaser-cc.vtt
+/content-images/wai-fundamentals-overview/henny.png
+/content-images/wai-fundamentals-overview/makoto-video.png
+/content-images/wai-fundamentals-overview/makoto.png
+/content-images/wai-fundamentals-overview/sarah.png
+/content-images/wai-fundamentals-overview/shadi.png
+/content-images/wai-fundamentals-overview/shawn.png
+/content-images/wai-fundamentals-overview/social-course1.png
+/content-images/wai-fundamentals-overview/test.md
+/content-images/wai-fundamentals-overview/video6-tagline.png
+/content-images/wai-fundamentals-overview/vivienne.png
 /content-images/wai-intro-accessibility/video-still-accessibility-intro-16-9.jpg
 /content-images/wai-intro-accessibility/video-still-accessibility-perspectives-16-9.jpg
 /content-images/wai-intro-aria/tree-nav.png
@@ -452,6 +468,7 @@
 /fundamentals/foundations-course/index.html
 /fundamentals/index.html
 /index.html
+/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -789,7 +806,7 @@
 /standards-guidelines/act/rules/html-page-lang-valid-bf051a/index.html
 /standards-guidelines/act/rules/html-page-lang-xml-lang-match-5b7ae0/index.html
 /standards-guidelines/act/rules/html-page-non-empty-title-2779a5/index.html
-/standards-guidelines/act/rules/image-button-non-empty-accessible-name-59796f/index.html
+/standards-guidelines/act/rules/image-button-accessible-name-59796f/index.html
 /standards-guidelines/act/rules/image-non-empty-accessible-name-23a2a8/index.html
 /standards-guidelines/act/rules/index.html
 /standards-guidelines/act/rules/link-non-empty-accessible-name-c487ae/index.html

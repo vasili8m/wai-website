@@ -9,13 +9,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1606184801707072812";
+      element.src = "/WAI/assets/scripts/main.js?1606236558001295942";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1606184801707072812">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1606236558001295942">
 
 <title> Changelog | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.6.1 -->
 <meta name="generator" content="Jekyll v3.9.0" />
@@ -121,7 +121,44 @@
 
   <main id="main" lang="en">
     <header class="in-resource">
-      <h1>Changelog</h1><p>in <a lang="en" href="/WAI/media/av/"><span>Making Audio and Video Media Accessible</span></a></p></header><h2 id="2020-october-09">2020-October-09</h2>
+      <h1>Changelog</h1><p>in <a lang="en" href="/WAI/media/av/"><span>Making Audio and Video Media Accessible</span></a></p></header><h2 id="2020-november-24">2020-November-24</h2>
+
+<ul>
+  <li>Include text in description:
+    <ul>
+      <li>In Audio Description of Visual Information page, under <a href="https://www.w3.org/WAI/media/av/description/#writing">Tips for Writing Descriptions</a>, added paragraph:<br />“Generally, all text in the video should be included in the main audio (integrated description) or in the separate description. For example, title text at the beginning of the video, links and e-mail addresses shown at the end, speakers’ names in text, and text in a presentation. The text does not have to be included verbatim (exactly word-for-word), yet all of the information conveyed by the text needs to be available in the main audio, in the separate description, or clearly with the video.”</li>
+      <li>In first page, under <a href="https://www.w3.org/WAI/media/av/#how-to-make-audio-and-video-accessible">How to Make Audio and Video Accessible</a>, at end of Audio Description of Visual Information paragraph, added:<br />”, including text displayed in the video.”</li>
+      <li>In Audio Content and Video Content page, under <a href="https://www.w3.org/WAI/media/av/av-content/#plan-description">Plan for audio description of visual information</a>, at end of first paragraph, added:<br />”, <strong>including text displayed in the video</strong>.”</li>
+      <li>(<a href="https://github.com/w3c/wai-media-guide/pull/126/files">Diff for text in description</a>)</li>
+    </ul>
+  </li>
+  <li>Common barriers in content:
+    <ul>
+      <li>In <a href="https://www.w3.org/WAI/media/av/av-content/">Audio Content and Video Content page</a>
+        <ul>
+          <li>Added to summary:<br />“This page covers <strong>common accessibility barriers</strong> including:…<br />{and 3 bullets with in-page links}”</li>
+          <li>Moved paragraph: “Guidance on what to include is in the “Creating Audio Description of Visual Information” page, <a href="/WAI/media/av/description/#writing">Tips for Writing Description section</a>.”</li>
+          <li>Added “script” to “### Plan for sign language – <em>storyboarding, script, recording</em> (WCAG AAA)”
+            <ul>
+              <li>Added targets:</li>
+              <li>”### Provide redundancy for sensory characteristics – <em>script</em> (WCAG A)  {#sensory}”</li>
+              <li>”### Make overlay text readable – <em>storyboarding, post-production</em> (WCAG AA, AAA) {#readable}”</li>
+            </ul>
+          </li>
+          <li>Corrected grammar have-&gt;has:<br />“Some of the guidance below is related to requirements in Web Content Accessibility Guidelines (WCAG) and have links to a separate resource.” -&gt;<br />“Some of the guidance below is related to requirements in Web Content Accessibility Guidelines (WCAG) and has links to a separate resource.”</li>
+        </ul>
+      </li>
+      <li>(<a href="https://github.com/w3c/wai-media-guide/pull/127/files">Diff 2020-November-24 AV Content</a>)</li>
+    </ul>
+  </li>
+  <li>Added alt (<a href="https://github.com/w3c/wai-media-guide/issues/146">per 146</a>:
+    <ul>
+      <li>In <a href="https://www.w3.org/WAI/media/av/captions/">Captions/Subtitles</a> and <a href="https://www.w3.org/WAI/media/av/transcribing/">Transcribing Audio to Text</a> added alt “food on fire under broiler” to:<br /><code><img src="/WAI/content-images/wai-media-guide/food-fire.jpg" alt="food on fire under broiler" class=" normal right" /></code></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="2020-october-09">2020-October-09</h2>
 
 <ul>
   <li>In Transcripts page, <a href="https://www.w3.org/WAI/media/av/transcripts/#checklist">Does My Media Need a Transcript? section</a>, corrected bullets under “Video-only (no audio content)”</li>
@@ -203,9 +240,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1606184801707072812"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1606236558001295942"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1606184801707072812"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1606236558001295942"></script>
 <script>
   svg4everybody();
 </script><script>

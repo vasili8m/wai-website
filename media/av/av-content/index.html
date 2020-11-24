@@ -9,13 +9,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1606184801707072812";
+      element.src = "/WAI/assets/scripts/main.js?1606236558001295942";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1606184801707072812">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1606236558001295942">
 
 <title> Audio Content and Video Content | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.6.1 -->
 <meta name="generator" content="Jekyll v3.9.0" />
@@ -126,6 +126,13 @@
 
 <p>This page describes accessibility considerations when planning, scripting, storyboarding, recording, and producing audio and video.</p>
 
+<p>This page covers <strong>common accessibility barriers</strong> including:</p>
+<ul>
+  <li><a href="#plan-description">missing description of visual information</a> (such as text in the video) for people who cannot see the video</li>
+  <li><a href="#sensory">requiring sight to understand the content</a> of the video</li>
+  <li><a href="#readable">making text in the video hard for some people to see </a> because there is not enough contrast between the text and the background colors</li>
+</ul>
+
 </div></aside>
 
 
@@ -144,14 +151,14 @@
       <li><a href="#speak-clearly-and-slowly--speakers" id="markdown-toc-speak-clearly-and-slowly--speakers">Speak clearly and slowly – <em>speakers</em></a></li>
       <li><a href="#give-people-time-to-process-information--speakers-post-production" id="markdown-toc-give-people-time-to-process-information--speakers-post-production">Give people time to process information – <em>speakers, post-production</em></a></li>
       <li><a href="#use-clear-language--script" id="markdown-toc-use-clear-language--script">Use clear language – <em>script</em></a></li>
-      <li><a href="#provide-redundancy-for-sensory-characteristics--script-wcag-a" id="markdown-toc-provide-redundancy-for-sensory-characteristics--script-wcag-a">Provide redundancy for sensory characteristics – <em>script</em> (WCAG A)</a></li>
+      <li><a href="#sensory" id="markdown-toc-sensory">Provide redundancy for sensory characteristics – <em>script</em> (WCAG A)</a></li>
     </ul>
   </li>
   <li><a href="#video" id="markdown-toc-video">Video</a>    <ul>
       <li><a href="#avoid-causing-seizures--storyboarding-post-production-wcag-a" id="markdown-toc-avoid-causing-seizures--storyboarding-post-production-wcag-a">Avoid causing seizures – <em>storyboarding, post-production</em> (WCAG A)</a></li>
       <li><a href="#consider-speaker-visibility--storyboarding-recording-post-production" id="markdown-toc-consider-speaker-visibility--storyboarding-recording-post-production">Consider speaker visibility – <em>storyboarding, recording, post-production</em></a></li>
-      <li><a href="#make-overlay-text-readable--storyboarding-post-production-wcag-aa-aaa" id="markdown-toc-make-overlay-text-readable--storyboarding-post-production-wcag-aa-aaa">Make overlay text readable – <em>storyboarding, post-production</em> (WCAG AA, AAA)</a></li>
-      <li><a href="#plan-for-sign-language--storyboarding-recording-wcag-aaa" id="markdown-toc-plan-for-sign-language--storyboarding-recording-wcag-aaa">Plan for sign language – <em>storyboarding, recording</em> (WCAG AAA)</a></li>
+      <li><a href="#readable" id="markdown-toc-readable">Make overlay text readable – <em>storyboarding, post-production</em> (WCAG AA, AAA)</a></li>
+      <li><a href="#plan-for-sign-language--storyboarding-script-recording-wcag-aaa" id="markdown-toc-plan-for-sign-language--storyboarding-script-recording-wcag-aaa">Plan for sign language – <em>storyboarding, script, recording</em> (WCAG AAA)</a></li>
       <li><a href="#plan-description" id="markdown-toc-plan-description">Plan for audio description of visual information – <em>storyboarding, recording</em>  (WCAG A, AA)</a></li>
     </ul>
   </li>
@@ -168,7 +175,7 @@
 
 <p>This page addresses accessibility considerations when planning, scripting, storyboarding, recording, and producing audio and video.</p>
 
-<p>Some of the guidance below is related to requirements in Web Content Accessibility Guidelines (WCAG) and have links to a separate resource. <em>(The Planning page of this resource introduces the <a href="/WAI/media/av/planning/#wcag-standard">WCAG Standard</a>.)</em> Other guidance is good practice.</p>
+<p>Some of the guidance below is related to requirements in Web Content Accessibility Guidelines (WCAG) and has links to a separate resource. <em>(The Planning page of this resource introduces the <a href="/WAI/media/av/planning/#wcag-standard">WCAG Standard</a>.)</em> Other guidance is good practice.</p>
 
 <h2 id="audio">Audio</h2>
 
@@ -204,7 +211,7 @@
 
 <p>Avoid or explain jargon, acronyms, and idioms. For example, expressions such as “raising the bar” can be interpreted literally by some people with cognitive disabilities and can be confusing.</p>
 
-<h3 id="provide-redundancy-for-sensory-characteristics--script-wcag-a">Provide redundancy for sensory characteristics – <em>script</em> (WCAG A)</h3>
+<h3 id="sensory">Provide redundancy for sensory characteristics – <em>script</em> (WCAG A)</h3>
 
 <p>Make your information work for people who cannot see and/or cannot hear.</p>
 
@@ -227,13 +234,13 @@
 
 <p>Some people use mouth movement to help understand spoken language. When feasible, ensure that the speaker’s face is visible and in good light.</p>
 
-<h3 id="make-overlay-text-readable--storyboarding-post-production-wcag-aa-aaa">Make overlay text readable – <em>storyboarding, post-production</em> (WCAG AA, AAA)</h3>
+<h3 id="readable">Make overlay text readable – <em>storyboarding, post-production</em> (WCAG AA, AAA)</h3>
 
 <p>For any text, consider the font family, size, and contrast between the text and background.</p>
 
 <p><span style="color:#585858; font-style:italic;">More information is in <a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">Understanding Success Criterion 1.4.3: Contrast (Minimum) (AA)</a> and <a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced">Understanding Success Criterion 1.4.6: Contrast (Enhanced) (AAA)</a>.</span></p>
 
-<h3 id="plan-for-sign-language--storyboarding-recording-wcag-aaa">Plan for sign language – <em>storyboarding, recording</em> (WCAG AAA)</h3>
+<h3 id="plan-for-sign-language--storyboarding-script-recording-wcag-aaa">Plan for sign language – <em>storyboarding, script, recording</em> (WCAG AAA)</h3>
 
 <p>Often sign languages are provided as an overlay in the bottom right corner of videos. For example: <a href="https://www.youtube.com/watch?v=TCq3ru9HQSc">NHS 111 British Sign Language (BSL) Advert (YouTube)<br /><img src="/WAI/content-images/wai-media-guide/sign-example.jpg" alt="" class=" normal video" /></a></p>
 
@@ -243,7 +250,9 @@
 
 <h3 id="plan-description">Plan for audio description of visual information – <em>storyboarding, recording</em>  (WCAG A, AA)</h3>
 
-<p><em>Description</em> provides content to people who are blind and others who cannot see the video adequately. It describes the visual information needed to understand the content.</p>
+<p><em>Description</em> provides content to people who are blind and others who cannot see the video adequately. It describes the visual information needed to understand the content, <strong>including text displayed in the video</strong>.</p>
+
+<p>Guidance on what to include is in the “Creating Audio Description of Visual Information” page, <a href="/WAI/media/av/description/#writing">Tips for Writing Description section</a>.</p>
 
 <p>Plan to either:</p>
 <ul>
@@ -273,8 +282,6 @@
     <td>Attach the small ring to the green end, which is the larger end.</td>
   </tr>
 </table>
-
-<p>Guidance on what to include is in the “Creating Audio Description of Visual Information” page, <a href="/WAI/media/av/description/#writing">Tips for Writing Description section</a>.</p>
 
 <h4 id="time-for-description">Time for description</h4>
 
@@ -347,7 +354,7 @@
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner">
-      <p><strong>Date:</strong> Updated 1 October 2020. <a href="/WAI/media/av/changelog/">Changelog</a>.</p> <p><strong>Editor:</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="/WAI/media/av/acknowledgements/">Acknowledgements</a> lists contributors and credits.</p> <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Originally drafted as part of the <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA Project</a> funded by the <abbr title="United States">U.S.</abbr> Access Board. Revised as part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a> funded by the Ford Foundation.</p>
+      <p><strong>Date:</strong> Updated 24 November 2020. <a href="/WAI/media/av/changelog/">Changelog</a>.</p> <p><strong>Editor:</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="/WAI/media/av/acknowledgements/">Acknowledgements</a> lists contributors and credits.</p> <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Originally drafted as part of the <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA Project</a> funded by the <abbr title="United States">U.S.</abbr> Access Board. Revised as part of the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a> funded by the Ford Foundation.</p>
 </div>
   </footer>
   
@@ -383,9 +390,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1606184801707072812"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1606236558001295942"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1606184801707072812"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1606236558001295942"></script>
 <script>
   svg4everybody();
 </script><script>
