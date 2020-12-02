@@ -337,6 +337,7 @@
 /content-images/wai-fundamentals-overview/video6-tagline.png
 /content-images/wai-fundamentals-overview/vivienne.png
 /content-images/wai-fundamentals-overview/wcag2.1AA-blue-v.svg
+/content-images/wai-fundamentals-overview/wcag2.1AAA-blue-v.svg
 /content-images/wai-intro-accessibility/video-still-accessibility-intro-16-9.jpg
 /content-images/wai-intro-accessibility/video-still-accessibility-perspectives-16-9.jpg
 /content-images/wai-intro-aria/tree-nav.png
@@ -470,7 +471,6 @@
 /fundamentals/foundations-course/index.html
 /fundamentals/index.html
 /index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
