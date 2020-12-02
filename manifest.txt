@@ -324,6 +324,7 @@
 /content-images/wai-fundamentals-overview/anthony.png
 /content-images/wai-fundamentals-overview/carie.png
 /content-images/wai-fundamentals-overview/certificate.png
+/content-images/wai-fundamentals-overview/checks-image-1.png
 /content-images/wai-fundamentals-overview/foundations-course-teaser-cc.vtt
 /content-images/wai-fundamentals-overview/henny.png
 /content-images/wai-fundamentals-overview/makoto-video.png
@@ -335,6 +336,7 @@
 /content-images/wai-fundamentals-overview/test.md
 /content-images/wai-fundamentals-overview/video6-tagline.png
 /content-images/wai-fundamentals-overview/vivienne.png
+/content-images/wai-fundamentals-overview/wcag2.1AA-blue-v.svg
 /content-images/wai-intro-accessibility/video-still-accessibility-intro-16-9.jpg
 /content-images/wai-intro-accessibility/video-still-accessibility-perspectives-16-9.jpg
 /content-images/wai-intro-aria/tree-nav.png
