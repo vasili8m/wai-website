@@ -229,7 +229,6 @@
 /business-case/es.html
 /business-case/fr.html
 /business-case/index.html
-/cognitive/index.html
 /content-images/EasyChecks/easy-checks-accessibility-cc.vtt
 /content-images/EasyChecks/video-thumb-easy-checks.png
 /content-images/home/wcag21-release.png
@@ -473,6 +472,7 @@
 /fundamentals/foundations-course/index.html
 /fundamentals/index.html
 /index.html
+/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -628,6 +628,7 @@
 /older-users/img/captcha.png
 /older-users/index.html
 /older-users/literature/index.html
+/pages/wai-cognitive/index.html
 /pages/wcag-act-rules/glossary/accessible-name.md
 /pages/wcag-act-rules/glossary/attribute-value.md
 /pages/wcag-act-rules/glossary/explicit-role.md
