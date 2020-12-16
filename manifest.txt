@@ -18,6 +18,7 @@
 /about/projects/index.html
 /about/projects/wai-coop/index.html
 /about/projects/wai-core-2015/index.html
+/about/projects/wai-core-ford/index.html
 /about/projects/wai-guide/index.html
 /about/projects/wai-tools/final-open-meeting/index.html
 /about/projects/wai-tools/first-open-meeting/index.html
@@ -472,6 +473,7 @@
 /fundamentals/foundations-course/index.html
 /fundamentals/index.html
 /index.html
+/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -909,4 +911,3 @@
 /videos/standards-and-benefits/nl.html
 /videos/standards-and-benefits/ru.html
 /videos/standards-and-benefits/zh-hans.html
-/wai-core-ford/index.html
