@@ -909,3 +909,4 @@
 /videos/standards-and-benefits/nl.html
 /videos/standards-and-benefits/ru.html
 /videos/standards-and-benefits/zh-hans.html
+/wai-core-ford/index.html
