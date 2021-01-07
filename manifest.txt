@@ -611,6 +611,7 @@
 /news/2020-08-11/wcag-2-2/index.html
 /news/2020-08-24/WAI-Tools_meeting_September/index.html
 /news/2020-09-16/XAUR/index.html
+/news/2021-01-07/WAI-Tools-meeting/index.html
 /news/21/index.html
 /news/22/index.html
 /news/23/index.html
