@@ -369,6 +369,7 @@
 /content-images/wai-media-guide/cc.svg
 /content-images/wai-media-guide/contrast-still.png
 /content-images/wai-media-guide/ear.svg
+/content-images/wai-media-guide/eg-integrated-description.png
 /content-images/wai-media-guide/eye.svg
 /content-images/wai-media-guide/food-fire.jpg
 /content-images/wai-media-guide/hand.svg
