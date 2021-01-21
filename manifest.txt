@@ -483,6 +483,7 @@
 /fundamentals/foundations-course/index.html
 /fundamentals/index.html
 /index.html
+/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -622,6 +623,7 @@
 /news/2020-08-24/WAI-Tools_meeting_September/index.html
 /news/2020-09-16/XAUR/index.html
 /news/2021-01-07/WAI-Tools-meeting/index.html
+/news/2021-01-21/WCAG3/index.html
 /news/21/index.html
 /news/22/index.html
 /news/23/index.html

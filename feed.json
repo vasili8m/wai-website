@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2021-01-21/WCAG3/",
+            "title": "For Review: W3C Accessibility Guidelines (WCAG) 3.0 First Working Draft",
+            "summary": null,
+            "content_text": "W3C Accessibility Guidelines (WCAG) 3.0 First Public Working Draft is published for review. W3C Accessibility Guidelines (WCAG) 3 has several differences from Web Content Accessibility Guidelines (WCAG) 2.We encourage you to start by reading the WCAG 3 Introduction first to get important background on WCAG 3 development, review guidance, and timeline.WCAG 3 is intended to be easier to understand and more flexible than WCAG 2. The flexibility is to address different types of web content, apps, and tools — as well as organizations and people with disabilities. This WCAG 3 Draft proposes a different name, scope, structure, and draft conformance model.We are seeking input from evaluators, developers, designers, project managers, policy makers, people with disabilities, and others — particularly on the structure and the draft conformance model. Additional review guidance is in the blog post WCAG 3 FPWD Published. Please submit comments by 26 February 2021.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/wcag-3.0/\">W3C Accessibility Guidelines (WCAG) 3.0 First Public Working Draft</a> is published for review. W3C Accessibility Guidelines (WCAG) 3 has several differences from Web Content Accessibility Guidelines (WCAG) 2.</p><p>We encourage you to <strong>start by reading the <a href=\"https://www.w3.org/WAI/wcag3\">WCAG 3 Introduction</a> first</strong> to get important background on WCAG 3 development, review guidance, and timeline.</p><p>WCAG 3 is intended to be easier to understand and more flexible than WCAG 2. The flexibility is to address different types of web content, apps, and tools — as well as organizations and people with disabilities. This WCAG 3 Draft proposes a different name, scope, structure, and draft conformance model.</p><p>We are seeking input from evaluators, developers, designers, project managers, policy makers, people with disabilities, and others — particularly on the structure and the draft conformance model. Additional review guidance is in the blog post <a href=\"https://www.w3.org/blog/2020/11/wcag-3-fpwd/\">WCAG 3 FPWD Published</a>. Please submit comments <strong>by 26 February 2021</strong>.</p>",
+            "url": "https://www.w3.org/WAI/news/2021-01-21/WCAG3/",
+            
+            
+            
+            
+            
+            "date_published": "2021-01-21T00:00:00+00:00",
+            "date_modified": "2021-01-21T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2021-01-07/WAI-Tools-meeting/",
             "title": "Invitation: WAI-Tools Final Meeting, Online 26 January 2021",
             "summary": null,
@@ -740,27 +761,6 @@
             
             "date_published": "2018-11-29T00:00:00+00:00",
             "date_modified": "2018-11-29T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2018-11-09/business-case/",
-            "title": "New Resource: The Business Case for Digital Accessibility",
-            "summary": null,
-            "content_text": "The Business Case for Digital Accessibility describes that accessibility can drive innovation, enhance your brand, extend market reach, and minimize legal risk. It includes direct and indirect benefits of accessibility, and the risks of not addressing accessibility adequately. It provides case studies and examples that demonstrate how continued investment in accessibility is good for your organization.",
-            "content_html": "<p><a href=\"https://www.w3.org/WAI/business-case/\">The Business Case for Digital Accessibility</a> describes that accessibility can drive innovation, enhance your brand, extend market reach, and minimize legal risk. It includes direct and indirect benefits of accessibility, and the risks of not addressing accessibility adequately. It provides case studies and examples that demonstrate how continued investment in accessibility is good for your organization.</p>",
-            "url": "https://www.w3.org/WAI/news/2018-11-09/business-case/",
-            
-            
-            
-            
-            
-            "date_published": "2018-11-09T09:00:00+00:00",
-            "date_modified": "2018-11-09T09:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"

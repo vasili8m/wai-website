@@ -9,13 +9,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1611192732235017542";
+      element.src = "/WAI/assets/scripts/main.js?1611212237661983889";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1611192732235017542">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1611212237661983889">
 
 <title> WCAG 3 Introduction | Web Accessibility Initiative (WAI) | W3C</title><style>#toc li {
   padding-top:0; padding-bottom:0;
@@ -136,9 +136,7 @@
     <header>
       <h1>WCAG 3 Introduction</h1></header><aside class="box box-full"><header class="box-h  box-h-full"> <h2> Summary </h2></header><div class="box-i">
 
-<!-- @@ This page introduces the in-progress [W3C Accessibility Guidelines (WCAG) 3.0 Working **Draft**](https://www.w3.org/TR/wcag-3.0/). -->
-
-<p>This page introduces the <strong>unpublished, in-progress draft</strong> of W3C Accessibility Guidelines (WCAG) 3.0. It explains how WCAG 3 is related to WCAG 2.<br />This page is the starting point for information about WCAG 3 now and in the future.</p>
+<p>This page introduces the in-progress <a href="https://www.w3.org/TR/wcag-3.0/">W3C Accessibility Guidelines (WCAG) 3.0 Working <strong>Draft</strong></a>. It explains how WCAG 3 is related to WCAG 2.<br />This page is the starting point for information about WCAG 3 now and in the future.</p>
 
 </div></aside>
 
@@ -177,9 +175,7 @@
 
 <h2 class="no_toc" id="introduction">Introduction</h2>
 
-<p><em>We plan to publish the First Public Working Draft (FPWD) of WCAG 3 in January 2021. This page will be updated when it is published.</em> <!-- @@ --></p>
-
-<p>WCAG 3 is currently an incomplete draft that is intended to become a W3C Standard in a few years. The current standard, WCAG 2, is introduced in the <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) Overview</a>.</p>
+<p>WCAG 3 is currently an incomplete draft. It is intended to develop into a W3C Standard in a few years. The current standard, WCAG 2, is introduced in the <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG) Overview</a>.</p>
 
 <p>The WCAG 3 documents explain how to make the web more accessible to people with disabilities. WCAG 3 applies to web content, apps, tools, publishing, and emerging technologies on the web. <em>(The rest of this page uses “website” for simplicity, yet WCAG applies more broadly than websites.)</em></p>
 
@@ -187,10 +183,7 @@
 
 <h2 id="status-draft-for-review">Status: Draft for Review</h2>
 
-<!-- @@replace first sentence:
-[W3C Accessibility Guidelines (WCAG) 3.0 Working Draft](https://www.w3.org/TR/wcag-3.0/) is currently an **incomplete, unpolished Working Draft**. -->
-
-<p>W3C Accessibility Guidelines (WCAG) 3.0 is currently an <strong>unpublished Editor’s Draft</strong>. It includes:</p>
+<p><a href="https://www.w3.org/TR/wcag-3.0/">W3C Accessibility Guidelines (WCAG) 3.0 Working Draft</a> is currently an <strong>incomplete, unpolished Draft</strong>. It includes:</p>
 <ul>
   <li>proposed structure</li>
   <li>draft <a href="#model">conformance model</a></li>
@@ -204,14 +197,14 @@
 </svg>
 </div>
 
-<p>We will be <!-- are --> seeking input from evaluators, developers, designers, project managers, policy makers, people with disabilities, and others — particularly on:</p>
+<p>We are seeking input from evaluators, developers, designers, project managers, policy makers, people with disabilities, and others — particularly on:</p>
 <ul>
   <li>Is this structure clear and useful?</li>
   <li>How well does this draft conformance model work across different situations?</li>
   <li>Other specific questions throughout the draft.</li>
 </ul>
 
-<p>We also welcome comments on the goals and parameters in the “WCAG 3 requirements doc” that will be published in January 2021. <!--: [Requirements for WCAG 3.0](https://www.w3.org/TR/wcag-3.0-requirements/). --></p>
+<p>We also welcome comments on the goals and parameters in <a href="https://www.w3.org/TR/wcag-3.0-requirements/">Requirements for WCAG 3.0</a>.</p>
 
 <p>Additionally, we welcome comments on ways that the Accessibility Guidelines Working Group can better support your review, feedback, or inclusion in the process of creating WCAG 3.</p>
 
@@ -220,7 +213,7 @@
   <li>If you are interested in helping shape WCAG 3, we encourage you spend time reviewing this draft and submit comments by 26 February 2021.<br /><strong>Before you review and comment on the Working Draft, please read through</strong>:
     <ul>
       <li>This page, including the <a href="#background">background</a> section near the end.</li>
-      <li>The review guidance in the blog post to be published with the FPWD. <em>(we’ll add a link to the blog when it’s published)</em> <!-- [WCAG 3 FPWD Published](https://www.w3.org/blog/2020/11/wcag-3-fpwd/) --></li>
+      <li>The review guidance in the blog post <a href="https://www.w3.org/blog/2021/01/wcag-3-fpwd/#feedback">WCAG 3 FPWD Published, Feedback section</a></li>
     </ul>
   </li>
   <li>If you want to wait until WCAG 3 is more polished and stable to start learning it, you can read later drafts in 2021 or 2022.</li>
@@ -338,7 +331,7 @@
 
 <p>There are several different aspects of this draft WCAG 3 conformance model:</p>
 <ul>
-  <li>Conformance is more focused on processes <!-- **[processes](https://www.w3.org/TR/wcag-3.0/#processes)** --> (tasks such as ordering an item or registering for a class), rather than web pages.</li>
+  <li>Conformance is more focused on <strong><a href="https://www.w3.org/TR/wcag-3.0/#processes">processes</a></strong> (tasks such as ordering an item or registering for a class), rather than web pages.</li>
   <li>Outcomes can be <strong>rated</strong>, beyond just pass or fail. Rating scale is 0-4.</li>
   <li>The ratings are averaged for a total score. There is also a <strong>score for each functional category</strong> (e.g., vision, hearing, memory, etc.).</li>
 </ul>
@@ -510,7 +503,7 @@ m95 -62 c13 -12 23 -32 23 -45 0 -22 -3 -23 -85 -23 -79 0 -85 1 -85 20 0 60
 </svg>
 </div>
 
-<p>The First Public Working Draft of WCAG 3.0 is planned to be published in January 2021. <!-- @@ was published in January 2021 --> It is the first of many drafts.</p>
+<p>The First Public Working Draft of WCAG 3.0 was published on 21 January 2021. It is the first of many drafts.</p>
 
 <p>The Working Group will focus on refining the structure and conformance model, and will provide updated drafts for review. Once that is more stable, the Group will focus on developing the accessibility requirements (guidelines, outcomes, and support material). After WCAG 3 is more stable, we will provide material to help those wanting to transition to WCAG 3; for example, mapping between WCAG 2 and 3 requirements.</p>
 
@@ -580,9 +573,7 @@ m95 -62 c13 -12 23 -32 23 -45 0 -22 -3 -23 -85 -23 -79 0 -85 1 -85 20 0 60
       <li>Encourage organizations to continue to improve accessibility (rather than stopping with WCAG 2 Level AA)</li>
     </ul>
 
-    <!-- **More about goals is in the spec requirements doc: [Requirements for WCAG 3.0](https://www.w3.org/TR/wcag-3.0-requirements/).** We welcome comments on this document, too. -->
-
-    <p>More about goals is in the “WCAG 3 requirements doc” that will be published in January 2021. We welcome comments on this document, too.</p>
+    <p>More about goals is in <a href="https://www.w3.org/TR/wcag-3.0-requirements/">Requirements for WCAG 3.0</a>. We welcome comments on this document, too.</p>
 
     <h4 id="development-process">Development Process</h4>
 
@@ -597,7 +588,7 @@ m95 -62 c13 -12 23 -32 23 -45 0 -22 -3 -23 -85 -23 -79 0 -85 1 -85 20 0 60
 
     <h4 id="eg-guidelines"><em><strong>Draft Examples</strong></em></h4>
 
-    <p>The draft guidelines included in the <!-- First Public Working --> Draft were selected to illustrate specific aspects of the proposed structure of WCAG 3 and relationship with WCAG 2.</p>
+    <p>The draft guidelines included in the First Public Working Draft were selected to illustrate specific aspects of the proposed structure of WCAG 3 and relationship with WCAG 2.</p>
     <ul>
       <li>Migrating a WCAG 2 success criterion as is into a WCAG 3 outcome: <a href="https://w3c.github.io/silver/guidelines/#text-alternatives">Text alternatives</a></li>
       <li>Merging multiple AA and AAA success criteria into a single WCAG 3 guideline: <a href="https://w3c.github.io/silver/guidelines/#visual-contrast-of-text">Visual contrast of text</a></li>
@@ -612,7 +603,7 @@ m95 -62 c13 -12 23 -32 23 -45 0 -22 -3 -23 -85 -23 -79 0 -85 1 -85 20 0 60
 
     <p>For specific questions that we would like feedback on, see:</p>
     <ul>
-      <li>The “Feedback” section of the blog — to be linked here in January. <!-- @@ --></li>
+      <li>Questions in the blog post <a href="https://www.w3.org/blog/2021/01/wcag-3-fpwd/#feedback">WCAG 3 FPWD Published, Feedback section</a>.</li>
       <li>Questions in Editor’s Notes throughout the draft.</li>
     </ul>
 
@@ -637,7 +628,7 @@ m95 -62 c13 -12 23 -32 23 -45 0 -22 -3 -23 -85 -23 -79 0 -85 1 -85 20 0 60
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner">
-      <p><strong>Date: </strong>Updated 20 January 2021.</p> <p><strong>Editor:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Jeanne Spellman.</p> <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>), Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>), Silver Task Force, and Silver Community Group.</p>
+      <p><strong>Date: </strong>Updated 21 January 2021.</p> <p><strong>Editor:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributors: Jeanne Spellman.</p> <p>Developed with input from the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>), Accessibility Guidelines Working Group (<a href="https://www.w3.org/WAI/about/groups/agwg/">AG WG</a>), Silver Task Force, and Silver Community Group.</p>
 </div>
   </footer>
   
@@ -673,9 +664,9 @@ m95 -62 c13 -12 23 -32 23 -45 0 -22 -3 -23 -85 -23 -79 0 -85 1 -85 20 0 60
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1611192732235017542"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1611212237661983889"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1611192732235017542"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1611212237661983889"></script>
 <script>
   svg4everybody();
 </script><script>
