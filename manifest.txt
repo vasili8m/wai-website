@@ -349,6 +349,7 @@
 /content-images/wai-intro-wcag/wcag-intro-social.png
 /content-images/wai-intro-wcag/wcag20docs.png
 /content-images/wai-intro-wcag/wcag20links-docs.png
+/content-images/wai-intro-wcag/wcag3_social.png
 /content-images/wai-media-guide/ADabstract.png
 /content-images/wai-media-guide/CC.png
 /content-images/wai-media-guide/D-only.png
