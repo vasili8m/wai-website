@@ -713,6 +713,7 @@
 /perspective-videos/cc/voice_ad-en.vtt
 /perspective-videos/cc/voice_ad_desc-en.vtt
 /perspective-videos/cc/voice_desc-en.vtt
+/perspective-videos/changelog/index.html
 /perspective-videos/contrast/index.html
 /perspective-videos/controls/index.html
 /perspective-videos/customizable/index.html
