@@ -475,6 +475,7 @@
 /fundamentals/accessibility-principles/fr.html
 /fundamentals/accessibility-principles/index.html
 /fundamentals/accessibility-principles/ko.html
+/fundamentals/accessibility-principles/ru.html
 /fundamentals/accessibility-principles/zh-hans.html
 /fundamentals/accessibility-usability-inclusion/index.html
 /fundamentals/components/examples/index.html
@@ -483,7 +484,6 @@
 /fundamentals/foundations-course/index.html
 /fundamentals/index.html
 /index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
