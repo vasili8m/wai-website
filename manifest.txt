@@ -343,7 +343,10 @@
 /content-images/wai-intro-accessibility/video-still-accessibility-intro-16-9.jpg
 /content-images/wai-intro-accessibility/video-still-accessibility-perspectives-16-9.jpg
 /content-images/wai-intro-aria/tree-nav.png
+/content-images/wai-intro-wcag/brain-icon.svg
+/content-images/wai-intro-wcag/calandara.svg
 /content-images/wai-intro-wcag/conformance-logos-social.png
+/content-images/wai-intro-wcag/dialogs2.svg
 /content-images/wai-intro-wcag/general-social.png
 /content-images/wai-intro-wcag/quick-ref-customize.png
 /content-images/wai-intro-wcag/wcag-intro-social.png
