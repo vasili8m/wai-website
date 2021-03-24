@@ -470,6 +470,12 @@
 /curricula/foundation-modules/principles-standards-and-checks/index.html
 /curricula/foundation-modules/what-is-web-accessibility/index.html
 /curricula/index.html
+/curricula/introduction-to-web-accessibility/business-case-and-benefits/index.html
+/curricula/introduction-to-web-accessibility/getting-started-with-accessibility.html
+/curricula/introduction-to-web-accessibility/index.html
+/curricula/introduction-to-web-accessibility/people-and-digital-technology.html
+/curricula/introduction-to-web-accessibility/principles-standards-and-checks/index.html
+/curricula/introduction-to-web-accessibility/what-is-web-accessibility/index.html
 /design-develop/es.html
 /design-develop/index.html
 /expand-access/index.html
@@ -656,6 +662,8 @@
 /older-users/img/captcha.png
 /older-users/index.html
 /older-users/literature/index.html
+/pages/wai-statements/generator.nl.md
+/pages/wai-statements/generator_layout.html
 /pages/wcag-act-rules/glossary/accessible-name.md
 /pages/wcag-act-rules/glossary/attribute-value.md
 /pages/wcag-act-rules/glossary/explicit-role.md
