@@ -498,7 +498,6 @@
 /fundamentals/index.html
 /index.html
 /link/to/page/index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -659,6 +658,11 @@
 /older-users/literature/index.html
 /pages/wai-statements/generator.nl.md
 /pages/wai-statements/generator_layout.html
+/pages/wai-teach-advocate-overview/Gemfile
+/pages/wai-teach-advocate-overview/Gemfile.lock
+/pages/wai-teach-advocate-overview/README.md
+/pages/wai-teach-advocate-overview/netlify.toml
+/pages/wai-teach-advocate-overview/w3c.json
 /pages/wcag-act-rules/glossary/accessible-name.md
 /pages/wcag-act-rules/glossary/attribute-value.md
 /pages/wcag-act-rules/glossary/explicit-role.md
@@ -895,6 +899,7 @@
 /teach-advocate/accessible-presentations/index.html
 /teach-advocate/contact-inaccessible-websites/index.html
 /teach-advocate/es.html
+/teach-advocate/fr.html
 /teach-advocate/index.html
 /test-evaluate/acknowledgements/index.html
 /test-evaluate/combined-expertise/index.html
