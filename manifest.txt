@@ -779,6 +779,7 @@
 /planning/org-policies/example/index.html
 /planning/org-policies/index.html
 /planning/statements/acknowledgements/index.html
+/planning/statements/changelog/index.html
 /planning/statements/complete-example/index.html
 /planning/statements/generator/index.html
 /planning/statements/index.html
