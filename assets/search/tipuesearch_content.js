@@ -1404,36 +1404,6 @@ var tipuesearch = {"pages": [{
     "tags": "",
     "url": "/WAI/curricula/foundation-modules/what-is-web-accessibility/"
   },{
-    "title": "",
-    "text": "",
-    "tags": "",
-    "url": "/WAI/curricula/introduction-to-web-accessibility/business-case-and-benefits/"
-  },{
-    "title": "",
-    "text": "",
-    "tags": "",
-    "url": "/WAI/curricula/introduction-to-web-accessibility/"
-  },{
-    "title": "",
-    "text": "",
-    "tags": "",
-    "url": "/WAI/curricula/introduction-to-web-accessibility/getting-started-with-accessibility"
-  },{
-    "title": "",
-    "text": "",
-    "tags": "",
-    "url": "/WAI/curricula/introduction-to-web-accessibility/people-and-digital-technology"
-  },{
-    "title": "",
-    "text": "",
-    "tags": "",
-    "url": "/WAI/curricula/introduction-to-web-accessibility/principles-standards-and-checks/"
-  },{
-    "title": "",
-    "text": "",
-    "tags": "",
-    "url": "/WAI/curricula/introduction-to-web-accessibility/what-is-web-accessibility/"
-  },{
     "title": "Acknowledgements - Web Accessibility Perspectives Videos",
     "text": "This Web Accessibility Perspectives resource was developed by the Education Outreach Working Group (EOWG) with support from the WAI-DEV project, co-funded by the European Commission. Updated with support from the Ford Foundation. Project Leadership Editor and Project Lead: Shadi Abou-Zahra, W3C WAI Task Force Participants: Shadi Abou-Zahra, W3C WAI Brent Bakken, Pearson Adina Halter, Comcast EOWG Co-Chairs: Sharron Rush, Knowbility Brent Bakken, Pearson EOWG Staff Contact: Shawn Lawton Henry, W3C WAI Major Contributors Adina Halter, Comcast Kevin White, W3C WAI Shawn Lawton Henry, W3C WAI Eric Eggert, W3C WAI Sally Cain, RNIB Contributing EOWG Participants Andrew Arch Anna Belle Leiserson Brent Bakken Caleb Watson David Berman Eric Eggert Kevin White George Heake Howard Kramer James Green Judy Brewer Laura Keen Lydia Harkey Paul Schantz Shadi Abou-Zahra Sharron Rush Shawn Lawton Henry Susan Hewitt Sylvie Duchateau Victoria Menezes Miller Wayne Dick Special Thanks Alan Benson Artur Ortega Christiane Link Faezeh Seyedarabi Jeff Harvey Mercer HappyGuidedog Peter Janecek Sarah Bailey Many thanks also to Claudia Lee, Rachel Siegel, and George Parkes.",
     "tags": "",

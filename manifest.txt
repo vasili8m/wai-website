@@ -470,12 +470,6 @@
 /curricula/foundation-modules/principles-standards-and-checks/index.html
 /curricula/foundation-modules/what-is-web-accessibility/index.html
 /curricula/index.html
-/curricula/introduction-to-web-accessibility/business-case-and-benefits/index.html
-/curricula/introduction-to-web-accessibility/getting-started-with-accessibility.html
-/curricula/introduction-to-web-accessibility/index.html
-/curricula/introduction-to-web-accessibility/people-and-digital-technology.html
-/curricula/introduction-to-web-accessibility/principles-standards-and-checks/index.html
-/curricula/introduction-to-web-accessibility/what-is-web-accessibility/index.html
 /design-develop/es.html
 /design-develop/index.html
 /expand-access/index.html
