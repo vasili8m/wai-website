@@ -7,8 +7,8 @@ RUBY_VERSION = "2.6.2"
 
 [[redirects]]
   from = "/"
-  to = "/teach-advocate/"
-  
+  to = "/fundamentals/components/"
+
 [dev]
 publish = "_site"
 framework = "#static"
