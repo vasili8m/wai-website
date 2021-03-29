@@ -21,6 +21,11 @@
 /about/projects/wai-core-ford/index.html
 /about/projects/wai-guide/index.html
 /about/projects/wai-tools/final-open-meeting/index.html
+/about/projects/wai-tools/final-open-meeting/session1/index.html
+/about/projects/wai-tools/final-open-meeting/session2/index.html
+/about/projects/wai-tools/final-open-meeting/session3/index.html
+/about/projects/wai-tools/final-open-meeting/session4/index.html
+/about/projects/wai-tools/final-open-meeting/session5/index.html
 /about/projects/wai-tools/first-open-meeting/index.html
 /about/projects/wai-tools/index.html
 /about/projects/wai-tools/second-open-meeting/index.html
@@ -297,6 +302,11 @@
 /content-images/wai-about-w3c-process/rec.gif
 /content-images/wai-about-w3c-process/wd.gif
 /content-images/wai-about-wai/eu.svg
+/content-images/wai-about-wai/wai-tools/video1.vtt
+/content-images/wai-about-wai/wai-tools/video2.vtt
+/content-images/wai-about-wai/wai-tools/video3.vtt
+/content-images/wai-about-wai/wai-tools/video4.vtt
+/content-images/wai-about-wai/wai-tools/video5.vtt
 /content-images/wai-accessibility-principles/social.png
 /content-images/wai-bcase/brand.svg
 /content-images/wai-bcase/business-case.svg
