@@ -481,6 +481,7 @@
 /curricula/foundation-modules/what-is-web-accessibility/index.html
 /curricula/index.html
 /design-develop/es.html
+/design-develop/fr.html
 /design-develop/index.html
 /expand-access/index.html
 /favicon.ico
@@ -508,6 +509,7 @@
 /fundamentals/index.html
 /index.html
 /link/to/page/index.html
+/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
