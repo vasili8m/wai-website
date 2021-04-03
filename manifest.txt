@@ -509,7 +509,6 @@
 /fundamentals/index.html
 /index.html
 /link/to/page/index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -794,6 +793,7 @@
 /planning-and-managing/plan/index.html
 /planning-and-managing/sustain/index.html
 /planning/es.html
+/planning/fr.html
 /planning/index.html
 /planning/interim-repairs/index.html
 /planning/involving-users/index.html
