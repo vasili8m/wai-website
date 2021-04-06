@@ -913,6 +913,7 @@
 /teach-advocate/accessibility-training/presentation-outlines/index.html
 /teach-advocate/accessibility-training/topics/index.html
 /teach-advocate/accessibility-training/workshop-outline/index.html
+/teach-advocate/accessible-presentations/changelog/index.html
 /teach-advocate/accessible-presentations/index.html
 /teach-advocate/contact-inaccessible-websites/index.html
 /teach-advocate/es.html
