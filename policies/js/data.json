@@ -506,6 +506,20 @@
 {
     "title": "United States",
     "countryhref": "/WAI/policies/united-states/",
+    "policyname": "Section 504 of the U.S. Rehabilitation Act of 1973, as amended",
+    "policyhref": "/WAI/policies/united-states/#section-504-of-the-u-s-rehabilitation-act-of-1973-as-amended",
+    "url": "https://www.dol.gov/oasam/regs/statutes/sec504.htm",
+    "enactdate": "1990",
+    "type": "Non-discrimination law",
+    "scope": [
+      "Public sector"
+    ],
+    "webonly": "no",
+    "wcagver": "WCAG 1.0 derivative"
+  },
+{
+    "title": "United States",
+    "countryhref": "/WAI/policies/united-states/",
     "policyname": "Section 255 of the Telecommunications Act of 1996",
     "policyhref": "/WAI/policies/united-states/#section-255-of-the-telecommunications-act-of-1996",
     "url": "https://www.access-board.gov/the-board/laws/telecommunications-act",
