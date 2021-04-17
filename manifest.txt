@@ -871,6 +871,7 @@
 /standards-guidelines/act/rules/index.html
 /standards-guidelines/act/rules/link-non-empty-accessible-name-c487ae/index.html
 /standards-guidelines/act/rules/meta-viewport-b4f0c3/index.html
+/standards-guidelines/ar.html
 /standards-guidelines/aria/index.html
 /standards-guidelines/atag/glance/index.html
 /standards-guidelines/atag/index.html
