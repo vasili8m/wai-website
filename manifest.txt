@@ -496,6 +496,7 @@
 /fundamentals/accessibility-intro/zh-hans.html
 /fundamentals/accessibility-principles/ar.html
 /fundamentals/accessibility-principles/changelog/index.html
+/fundamentals/accessibility-principles/cs.html
 /fundamentals/accessibility-principles/es.html
 /fundamentals/accessibility-principles/fr.html
 /fundamentals/accessibility-principles/index.html
