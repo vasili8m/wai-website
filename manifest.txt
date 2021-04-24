@@ -511,7 +511,6 @@
 /fundamentals/index.html
 /index.html
 /link/to/page/index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -889,6 +888,7 @@
 /standards-guidelines/mobile/cs.html
 /standards-guidelines/mobile/es.html
 /standards-guidelines/mobile/index.html
+/standards-guidelines/mobile/ko.html
 /standards-guidelines/mobile/ru.html
 /standards-guidelines/mobile/zh-hans.html
 /standards-guidelines/ru.html
