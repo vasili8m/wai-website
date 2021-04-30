@@ -877,6 +877,7 @@
 /standards-guidelines/aria/index.html
 /standards-guidelines/atag/glance/index.html
 /standards-guidelines/atag/index.html
+/standards-guidelines/changelog/index.html
 /standards-guidelines/cs.html
 /standards-guidelines/earl/index.html
 /standards-guidelines/es.html
