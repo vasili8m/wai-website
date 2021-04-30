@@ -659,6 +659,11 @@ var tipuesearch = {"pages": [{
     "tags": "",
     "url": "/WAI/curricula/changelog/"
   },{
+    "title": "Changelog for Introduction to Web Accessibility",
+    "text": "## 00 Month 0000 – 00 Month 0000 * changes coming soon…",
+    "tags": "",
+    "url": "/WAI/fundamentals/accessibility-intro/changelog/"
+  },{
     "title": "Changelog - Web Accessibility Statements",
     "text": "## 11 March 2021 * Coding: better [support for translations](https://github.com/w3c/wai-statements/pull/143) * Intro page: [added WAI Accessibility Statement as example](https://github.com/w3c/wai-statements/pull/138) * Complete Example: [fixed external links](https://github.com/w3c/wai-statements/pull/137) * Generator tool: [replaced example \"live captioning\" to \"context-sensitive help\"](https://github.com/w3c/wai-statements/pull/145) * Generator tool and generated statement: [switched order of \"Approval\" and \"Complaints\" sections](https://github.com/w3c/wai-statements/pull/140) * Generator tool and generated statement: [changed one word: \"targets\" to \"goals\"](https://github.com/w3c/wai-statements/pull/142) * Generated statement: [added H3 heading for \"Date\"](https://github.com/w3c/wai-statements/pull/139) * Generated statement: [removed boilerplate sentences about the organization's positions and actions](https://github.com/w3c/wai-statements/pull/141) * Updated footers (format, date, and names) and acknowledgements page * Added this changelog page",
     "tags": "",

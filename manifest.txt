@@ -488,6 +488,7 @@
 /feed.json
 /feed.xml
 /fundamentals/accessibility-intro/ar.html
+/fundamentals/accessibility-intro/changelog/index.html
 /fundamentals/accessibility-intro/cs.html
 /fundamentals/accessibility-intro/es.html
 /fundamentals/accessibility-intro/fr.html
@@ -511,7 +512,6 @@
 /fundamentals/index.html
 /index.html
 /link/to/page/index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
