@@ -514,7 +514,6 @@
 /fundamentals/index.html
 /index.html
 /link/to/page/index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -970,9 +969,11 @@
 /videos/standards-and-benefits/el.html
 /videos/standards-and-benefits/es.html
 /videos/standards-and-benefits/fr.html
+/videos/standards-and-benefits/id.html
 /videos/standards-and-benefits/index.html
 /videos/standards-and-benefits/ja.html
 /videos/standards-and-benefits/ko.html
 /videos/standards-and-benefits/nl.html
+/videos/standards-and-benefits/pt-BR.html
 /videos/standards-and-benefits/ru.html
 /videos/standards-and-benefits/zh-hans.html
