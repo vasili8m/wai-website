@@ -437,10 +437,12 @@
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.el.vtt
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.en.vtt
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.es.vtt
+/content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.fa.vtt
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.fr.vtt
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.gu.vtt
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.hi.vtt
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.hu.vtt
+/content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.id.vtt
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.it.vtt
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.ja.vtt
 /content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.ko.vtt
