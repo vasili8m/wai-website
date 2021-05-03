@@ -890,6 +890,7 @@
 /standards-guidelines/ko.html
 /standards-guidelines/linking/index.html
 /standards-guidelines/mobile/ar.html
+/standards-guidelines/mobile/changelog/index.html
 /standards-guidelines/mobile/cs.html
 /standards-guidelines/mobile/es.html
 /standards-guidelines/mobile/index.html
