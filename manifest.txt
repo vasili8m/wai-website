@@ -515,7 +515,6 @@
 /fundamentals/index.html
 /index.html
 /link/to/page/index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
@@ -934,6 +933,7 @@
 /teach-advocate/fr.html
 /teach-advocate/index.html
 /test-evaluate/acknowledgements/index.html
+/test-evaluate/changelog/index.html
 /test-evaluate/combined-expertise/index.html
 /test-evaluate/conformance/index.html
 /test-evaluate/conformance/wcag-em/index.html

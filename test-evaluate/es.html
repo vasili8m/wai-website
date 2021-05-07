@@ -9,13 +9,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1620419644399195780";
+      element.src = "/WAI/assets/scripts/main.js?1620426898026015961";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1620419644399195780">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1620426898026015961">
 
 <title> Visión general sobre la evaluación de la accesibilidad web | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v4.2.0" />
@@ -39,7 +39,7 @@
   <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
 </head>
 
-  <body id="top" class="page-visión-general-sobre-la-evaluación-de-la-accesibilidad-web ">
+  <body id="top" class="page-visión-general-sobre-la-evaluación-de-la-accesibilidad-web  tight-page">
     <nav aria-label="Saltar Enlace y Selector de Idioma" id="controls" class="default-grid">
   <ul>
       <li><a href="#main">Saltar al Contenido</a></li>
@@ -138,7 +138,7 @@
   <p>Esta traducción voluntaria puede que no refleje de forma adecuada las intenciones de la <a href="/WAI/test-evaluate/">versión original en inglés</a>.</p>
   
   
-  <p><svg focusable="false" aria-hidden="true" class="icon-warning "><use xlink:href="/WAI/assets/images/icons.svg#icon-warning"></use></svg> Versión en inglés actualizada posteriormente a esta traducción: <a href="$1">registro de cambios</a>.
+  <p><svg focusable="false" aria-hidden="true" class="icon-warning "><use xlink:href="/WAI/assets/images/icons.svg#icon-warning"></use></svg> Versión en inglés actualizada posteriormente a esta traducción: <a href="/WAI/test-evaluate/changelog/">registro de cambios</a>.
     <br>Versión en inglés actualizada: <span dir="auto">2020-10-19</span>. Traducción actualizada: <span dir="auto">2019-07-21</span>.
   </p>
   
@@ -165,10 +165,10 @@
   <li><a href="#intro" id="markdown-toc-intro">Introducción</a></li>
   <li><a href="#initial" id="markdown-toc-initial">Pruebas iniciales</a></li>
   <li><a href="#herramientas" id="markdown-toc-herramientas">Herramientas</a></li>
-  <li><a href="#conformance" id="markdown-toc-conformance">Evaluación de la conformidad</a></li>
-  <li><a href="#informes" id="markdown-toc-informes">Informes</a></li>
+  <li><a href="#conformance" id="markdown-toc-conformance">Evaluación de la conformidad -&gt; Conformance Evaluation and Reports</a></li>
   <li><a href="#personas" id="markdown-toc-personas">Personas</a></li>
   <li><a href="#estándares" id="markdown-toc-estándares">Estándares</a></li>
+  <li><a href="#alternatives" id="markdown-toc-alternatives">Alternatives for Video Introduction - Resources Overview</a></li>
 </ul>
 
 
@@ -180,11 +180,118 @@
 
 <h2 id="intro">Introducción</h2>
 
+<div class="video-card">
+  <div class="video-container" data-video-type="" dir="ltr">
+  <video preload="metadata" data-youtube-id="C4GIqWeywiI" data-youtube-nocookie="true" data-description-audible="false" width="450"><track src="/WAI/content-images/wai-eval-overview/evaluating-resources-overview-cc.vtt" label="English" kind="captions" srclang="en" default="" /></video>
+</div>
+
+
+<script src="/WAI/assets/ableplayer/thirdparty/modernizr.custom.js"></script>
+<script src="/WAI/assets/scripts/jquery.min.js"></script>
+<script src="/WAI/assets/ableplayer/thirdparty/js.cookie.js"></script>
+<script src="/WAI/assets/ableplayer/build/ableplayer.min.js"></script>
+<script>
+  var youTubeDataAPIKey = "AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI";
+  var googleApiReady = false;
+  function initGoogleClientApi() {
+    googleApiReady = true;
+  }
+</script>
+<script src="//apis.google.com/js/client.js?onload=initGoogleClientApi"></script>
+
+<script>
+(function () {
+  'use strict';
+
+  var player1 = new AblePlayer($('[data-video-type=""] video'));
+  var player2 = new AblePlayer($('[data-video-type="audio-described"] video'));
+
+  function addclass(el, className) {
+    if (el.classList) {
+      el.classList.add(className);
+    } else {
+      if(! hasclass(el, className)){
+        el.className += ' ' + className;
+      }
+    }
+  }
+
+  function removeclass(el, className) {
+    if (el.classList) {
+      el.classList.remove(className);
+    } else {
+      el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+    }
+  }
+
+  function hasclass(el, className) {
+    if (el.classList) {
+      return el.classList.contains(className);
+    } else {
+      return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
+    }
+  }
+
+  var audiodescribed = document.querySelectorAll('[data-video-type="audio-described"]');
+
+  if (audiodescribed) {
+
+  Array.prototype.forEach.call(audiodescribed, function(el, i){
+    el.setAttribute('hidden', true);
+  });
+
+  var adbutton = document.querySelector('#audio_description_button');
+  adbutton.addEventListener('click', function(e){
+    player1.pauseMedia();
+    player2.pauseMedia();
+    if (e.target.getAttribute('data-status') == "audio-described") {
+      var videos = document.querySelectorAll('.video-container');
+      Array.prototype.forEach.call(videos, function(el, i){
+        el.removeAttribute("hidden");
+      });
+      var nonaudiodescribed = document.querySelectorAll('[data-video-type="audio-described"]');
+      Array.prototype.forEach.call(nonaudiodescribed, function(el, i){
+        el.setAttribute('hidden', true);
+      });
+      e.target.setAttribute('data-status', 'non-audio-described');
+      e.target.querySelector('span').innerHTML = 'Enable Audio Description';
+    } else {
+      var videos = document.querySelectorAll('.video-container');
+      Array.prototype.forEach.call(videos, function(el, i){
+        el.setAttribute('hidden', true);
+      });
+      var nonaudiodescribed = document.querySelectorAll('[data-video-type="audio-described"]');
+      Array.prototype.forEach.call(nonaudiodescribed, function(el, i){
+        el.removeAttribute("hidden");
+      });
+      e.target.setAttribute('data-status', 'audio-described');
+      e.target.querySelector('span').innerHTML = 'Disable Audio Description';
+    }
+  });
+
+  }
+
+}());
+</script>
+
+  <p><a href="#alternatives">Alternatives for Video Introduction - Resources Overview</a></p>
+</div>
+
 <p>Al desarrollar o rediseñar un sitio web o una aplicación web, evalúe la accesibilidad desde el principio y durante todo el proceso de desarrollo para identificar los problemas de accesibilidad lo antes posible, cuando es más fácil resolverlos.</p>
 
 <p>Existen herramientas que ayudan con la evaluación. Sin embargo, ninguna herramienta por sí sola puede determinar si un sitio cumple con los estándares de accesibilidad. Se requieren buenos conocimientos para determinar si un sitio es accesible.</p>
 
 <h2 id="initial">Pruebas iniciales</h2>
+
+<div class="video-card">
+  
+  <video controls="" poster="/WAI/content-images/wai-eval-overview/video-thumb-easy-checks.png">
+  
+    <source src="//media.w3.org/wai/evaluation-intros/easy-checks-accessibility.mp4" type="video/mp4" /><track src="/WAI/content-images/wai-eval-overview/" label="English" kind="captions" srclang="en" default="" /></video>
+  
+   <p><mark lang="en">Needs Translation</mark> <span lang="en">This video is available with more accessibility features:</span> <a href="https://www.w3.org/WAI/test-evaluate/preliminary/#video-intro">Video: Easy Checks Overview</a>.</p>
+  
+</div>
 
 <p>Incluso si usted no tiene conocimiento sobre accesibilidad y no posee herramientas para evaluarla, aún puede comprobar algunos de los aspectos de la accesibilidad.</p>
 
@@ -195,6 +302,16 @@
 
 <h2 id="herramientas">Herramientas</h2>
 
+<div class="video-card">
+  
+  <video controls="" poster="/WAI/content-images/wai-eval-overview/video-thumb-tools.png">
+  
+    <source src="//media.w3.org/wai/evaluation-intros/tools-for-evaluating.mp4" type="video/mp4" /><track src="/WAI/content-images/wai-eval-overview/tools-for-evaluating-cc.vtt" label="English" kind="captions" srclang="en" default="" /></video>
+  
+   <p><mark lang="en">Needs Translation</mark> <span lang="en">This video is available with more accessibility features:</span> <a href="https://www.w3.org/WAI/test-evaluate/tools/#video-intro">Video: Evaluation Tools Overview</a>.</p>
+  
+</div>
+
 <p>Las herramientas de evaluación de la accesibilidad web son programas de software o servicios en línea que ayudan a determinar si el contenido web cumple con los estándares de accesibilidad.</p>
 
 <dl>
@@ -204,27 +321,44 @@
   <dd>Proporciona orientación sobre la elección de las herramientas. Describe las características y la funcionalidad de los diferentes tipos de herramientas de evaluación y plantea las cosas a tener en cuenta para su situación.</dd>
 </dl>
 
-<h2 id="conformance">Evaluación de la conformidad</h2>
+<h2 id="conformance">Evaluación de la conformidad -&gt; Conformance Evaluation and Reports</h2>
+
+<div class="video-card">
+  
+  <video controls="" poster="/WAI/content-images/wai-eval-overview/video-thumb-conformance.png">
+  
+    <source src="//media.w3.org/wai/evaluation-intros/conformance-evaluation.mp4" type="video/mp4" /><track src="/WAI/content-images/wai-eval-overview/conformance-evaluation-cc.vtt" label="English" kind="captions" srclang="en" default="" /></video>
+  
+   <p><mark lang="en">Needs Translation</mark> <span lang="en">This video is available with more accessibility features:</span> <a href="https://www.w3.org/WAI/test-evaluate/conformance/#video-intro">Video: Conformance Evaluation Overview</a>.</p>
+  
+</div>
 
 <p>La evaluación de conformidad determina el grado en que las páginas o las aplicaciones web cumplen los estándares de accesibilidad. La “Metodología de evaluación de la conformidad de la accesibilidad de sitios web” (WCAG-EM) del W3C es un acercamiento para determinar la conformidad con las Pautas de Accesibilidad al Contenido Web (WCAG).</p>
 
 <dl>
   <dt><a href="/WAI/test-evaluate/conformance/wcag-em/" hreflang="en">Visión general de WCAG-EM: Metodología de evaluación de la conformidad de la accesibilidad de sitios web (en Inglés)</a></dt>
   <dd>Es una sencilla página con información básica para ayudarle a empezar. Le sugerimos leerla antes de ir al <a href="https://www.w3.org/TR/WCAG-EM/">documento completo de WCAG-EM</a>.</dd>
-</dl>
-
-<h2 id="informes">Informes</h2>
-
-<p>Comunique los resultados de la evaluación claramente, incluyendo el ámbito de aplicación.</p>
-
-<dl>
   <dt><a href="https://www.w3.org/WAI/eval/report-tool/#/">Herramienta de informes WCAG-EM: Generador de informes de evaluación de la accesibilidad del sitio web</a></dt>
   <dd>Es una ayuda para generar informes de evaluación de acuerdo a WCAG-EM. No hace las comprobaciones por usted, sino que le ayuda a seguir los pasos de WCAG-EM y genera un informe a partir de la información que usted facilita.</dd>
   <dt><a href="/WAI/test-evaluate/report-template/" hreflang="en">Plantilla para informes de evaluación de accesibilidad web (en Inglés)</a></dt>
   <dd>Información sugerida para incluir en un informe.</dd>
+  <dt><a href="https://www.w3.org/WAI/atag/report-tool/">ATAG Report Tool</a></dt>
+  <dd>Helps you generate a report on how a tool meets Authoring Tool Accessibility Guidelines (<a href="https://www.w3.org/WAI/standards-guidelines/atag/">ATAG</a>). Authoring tools are software and services used to create web content – such as content management systems (CMS) and what-you-see-is-what-you-get (WYSIWYG) HTML editors.</dd>
 </dl>
 
+<p>Comunique los resultados de la evaluación claramente, incluyendo el ámbito de aplicación.</p>
+
 <h2 id="personas">Personas</h2>
+
+<div class="video-card">
+  
+  <video controls="" poster="/WAI/content-images/wai-eval-overview/video-thumb-involving-users.png">
+  
+    <source src="//media.w3.org/wai/evaluation-intros/involving-users.mp4" type="video/mp4" /><track src="/WAI/content-images/wai-eval-overview/involving-users-cc.vtt" label="English" kind="captions" srclang="en" default="" /></video>
+  
+   <p><mark lang="en">Needs Translation</mark> <span lang="en">This video is available with more accessibility features:</span> <a href="https://www.w3.org/WAI/test-evaluate/involving-users/#video-intro">Video: Involving Users in Web Accessibility Overview</a>.</p>
+  
+</div>
 
 <p>La participación de las personas con las habilidades adecuadas hace que sus evaluaciones de accesibilidad sean más eficaces.</p>
 
@@ -238,6 +372,87 @@
 <h2 id="estándares">Estándares</h2>
 
 <p>La <a href="/WAI/standards-guidelines/evaluation/" hreflang="en">descripción general de las normas de evaluación (en Inglés)</a> introduce las especificaciones para redactar pruebas de accesibilidad (formato de reglas ACT) y mostrar los resultados de las mismas (EARL).</p>
+
+<hr />
+
+<details id="video-intro-transcript"><summary>
+
+    <h2 id="alternatives">Alternatives for Video Introduction - Resources Overview</h2>
+
+  </summary>
+  <div>
+
+    <p><em>This video is also available on a W3C server: <a href="http://media.w3.org/wai/evaluation-intros/evaluating-resources-overview.mp4">Video: Evaluating Web Accessibility - Resources Overview (file format: MP4, file size: 45MB)</a>.</em></p>
+
+    <h3 id="transcript">Text Transcript with Description of Visuals for Video Introduction - Resources Overview</h3>
+
+    <table aria-labelledby="transcript">
+  <tbody>
+    <tr>
+      <th>Audio</th>
+      <th>Visual</th>
+    </tr>
+    <tr>
+      <td>Evaluating web accessibility: resources overview </td>
+      <td>Evaluating web accessibility: resources overview.</td>
+    </tr>
+    <tr>
+       <td>Evaluation helps you ensure that your websites and applications meet accessibility requirements. </td>
+      <td>A magnifying glass with the word evaluation on a computer screen with a website on it.</td>
+    </tr>
+    <tr>
+      <td>Ideally you evaluate regularly throughout the design and development process. This way you find errors early and avoid costly repairs later in the process. </td>
+      <td>The web page components rearrange on the page until following a good design.</td>
+    </tr>
+    <tr>
+      <td>The W3C Web Accessibility Initiative, W-A-I, or WAI, provides free resources to help you with your evaluation. </td>
+      <td>W3C and Web Accessibility Initiative (WAI) logos.</td>
+    </tr>
+    <tr>
+      <td>"Easy Checks - A First Review of Web Accessibility" explains how you can do some checks yourself. </td>
+      <td>"Easy Checks - A First Review of Web Accessibility". A person in front of the computer. A light bulb appears.</td>
+    </tr>
+    <tr>
+      <td>Even if you are new to web accessibility and not technical, these checks give you a rough idea of the accessibility of any web page. </td>
+      <td>A document of checks. Each check is highlighted to show fails or passes.</td>
+    </tr>
+    <tr>
+      <td>WAI also maintains a "Web Accessibility Evaluation Tools List" that you can filter. </td>
+      <td>Web Accessibility Evaluation Tools List. A list of tools displayed as icons..</td>
+    </tr>
+    <tr>
+      <td>"Selecting Web Accessibility Evaluation Tools" explains what tools can and cannot do. </td>
+      <td>Selecting Web Accessibility Evaluation Tools. The tools icons displayed in a computer.</td>
+    </tr>
+    <tr>
+      <td>For more experienced evaluators, WAI provides "WCAG-EM", the "Website Accessibility Conformance Evaluation Methodology". </td>
+      <td>WCAG-EM. Website Accessibility Conformance Evaluation Methodology. A person in front of a computer. A simplified report is displayed.</td>
+    </tr>
+    <tr>
+      <td>The "WCAG-EM Report Tool" helps you record the findings as you follow the methodology. </td>
+      <td>WCAG-EM Report Tool. A progress bar shows the various stages of the evaluation methodology.</td>
+    </tr>
+    <tr>
+      <td>To help you better understand how different users experience your website and applications, WAI provides guidance in "Involving Users in Web Projects for Better, Easier Accessibility" and "Involving users in Evaluating Web Accessibility."</td>
+      <td>The screen splits into 12 fields each with a different user in front of a computer. Involving Users in Web Projects for Better, Easier Accessibility and Involving users in Evaluating Web Accessibility</td>
+    </tr>
+    <tr>
+      <td>With all these resources, you can learn how to check your website for accessibility and prioritize the issues you need to address first. </td>
+      <td>A magnifying glass with the words check for accessibility is replaced with a list of issues.</td>
+    </tr>
+    <tr>
+      <td>Web accessibility: essential for some, useful for all. </td>
+      <td>Icons around a computer: hand; eye; brain; ear; and mouth with sound waves.</td>
+    </tr>
+    <tr>
+      <td>For resources on evaluating web accessibility, visit w3.o-r-g/W-A-I/evaluation. </td>
+      <td>Evaluation resources, W3C and Web Accessibility Initiative (WAI) logos.</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+</details>
 
 
     <aside class="box box-icon box-space-above" id="helpimprove"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Ayuda a mejorar esta página </h2></header><div class="box-i"><p>Comparte tus ideas, sugerencias o comentarios por correo electrónico a la lista pública <a href="mailto:wai@w3.org?subject=[es]%20Visi%C3%B3n%20general%20sobre%20la%20evaluaci%C3%B3n%20de%20la%20accesibilidad%20web">wai@w3.org</a> o vía GitHub.</p>
@@ -255,7 +470,7 @@
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner">
-      <p><strong>Fecha:</strong> Actualizado el 20 de Septiembre de 2018.</p> <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p> <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Divulgación (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
+      <p>Note about video description: The videos on this page do not include synchronized audio description because the visuals only illustrate the audio and do not provide additional information. In this case, audio description would be more distracting than useful to most people, including people who cannot see the visuals. Description of visual information is integrated in the Text Transcript with Description of Visuals (“descriptive transcript”).</p> <p><strong>Fecha:</strong> Actualizado el 19 de octubre de 2020. <a href="/WAI/test-evaluate/changelog/">Registro de cambios</a>.</p> <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p> <p> Videos developed by the Grupo de Trabajo de Educación y Divulgación (<a href="http://www.w3.org/WAI/EO/">EOWG</a>) with support from the <a href="https://www.w3.org/WAI/about/projects/wai-guide/">WAI-Guide</a> project funded by the European Commission (EC) under the Horizon 2020 program (Grant Agreement 822245). <a href="./acknowledgements/">Acknowledgements</a>.</p> <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a> The videos are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
 </div>
   </footer>
   
@@ -291,13 +506,13 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1620419644399195780"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1620426898026015961"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1620419644399195780"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1620426898026015961"></script>
 <script>
   svg4everybody();
 </script>
-<script src="/WAI/assets/scripts/lang/es.js?1620419644399195780"></script><!-- Matomo -->
+<script src="/WAI/assets/scripts/lang/es.js?1620426898026015961"></script><!-- Matomo -->
 <script>
   var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
