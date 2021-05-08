@@ -660,7 +660,7 @@ var tipuesearch = {"pages": [{
     "url": "/WAI/planning/statements/changelog/"
   },{
     "title": "Changelog for Introduction to Web Accessibility",
-    "text": "## 2021-05May-07 * In [\"What is Web Accessibility\" section](https://www.w3.org/WAI/fundamentals/accessibility-intro/#what), in \"More Info on What is Accessibility\" box, changed: If you want more examples of benefits for others, with WCAG to back it up, see to: If you want more examples of benefits for others, with WCAG to support them, see **Note:** Did not change the last updated date (so that existing translations would not be shown as out of date), because this was a minor clarification edit (that some translaions already addressed). * minor updates to Spanish translation",
+    "text": "## 2021-05May-07 * In [\"What is Web Accessibility\" section](https://www.w3.org/WAI/fundamentals/accessibility-intro/#what), in \"More Info on What is Accessibility\" box, changed:```If you want more examples of benefits for others, with WCAG to back it up, see```to:```If you want more examples of benefits for others, with WCAG to support them, see```**Note:** Did not change the last updated date (so that existing translations would not be shown as out of date), because this was a minor clarification edit (that some translaions already addressed). * minor updates to Spanish translation",
     "tags": "",
     "url": "/WAI/fundamentals/accessibility-intro/changelog/"
   },{
