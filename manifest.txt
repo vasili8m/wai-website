@@ -508,6 +508,7 @@
 /fundamentals/accessibility-principles/ru.html
 /fundamentals/accessibility-principles/zh-hans.html
 /fundamentals/accessibility-usability-inclusion/index.html
+/fundamentals/changelog/index.html
 /fundamentals/components/examples/index.html
 /fundamentals/components/index.html
 /fundamentals/components/ko.html
