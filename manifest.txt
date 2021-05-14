@@ -888,6 +888,7 @@
 /standards-guidelines/evaluation/index.html
 /standards-guidelines/fr.html
 /standards-guidelines/harmonization/index.html
+/standards-guidelines/id.html
 /standards-guidelines/index.html
 /standards-guidelines/ko.html
 /standards-guidelines/linking/index.html
