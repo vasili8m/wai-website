@@ -9,13 +9,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1620944262535422993";
+      element.src = "/WAI/assets/scripts/main.js?1620953429056239883";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1620944262535422993">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1620953429056239883">
 
 <title> Changelog for Video Introduction to Web Accessibility and W3C Standards | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v4.2.0" />
@@ -39,7 +39,7 @@
   <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
 </head>
 
-  <body id="top" class="page-changelog-for-video-introduction-to-web-accessibility-and-w3c-standards ">
+  <body id="top" class="page-changelog-for-video-introduction-to-web-accessibility-and-w3c-standards  tight-page">
     <nav aria-label="Skip Link and Language Selector" id="controls" class="default-grid">
   <ul>
         <li><a href="#main">Skip to Content</a></li>
@@ -138,7 +138,14 @@
         Changelog for <a href="https://www.w3.org/WAI/videos/standards-and-benefits/">Video Introduction to Web Accessibility and W3C Standards</a>
       
       </h1></header>
-    
+    <aside class="box"><header class="box-h "> About</header><div class="box-i">
+
+<p>This page is designed so translators can copy and paste from this rendered changelog page.</p>
+
+<!-- For others, **particularly significant or substantive changes are summarized after “Significant:”**. -->
+
+</div></aside>
+
 
 <nav class="box box-simple" aria-labelledby="tocheading" id="toc">
   <header id="tocheading" class="box-h box-h-simple"> Page Contents</header>
@@ -149,10 +156,7 @@
 
 <ul id="markdown-toc">
   <li><a href="#for-translators---vtt-files" id="markdown-toc-for-translators---vtt-files">For Translators - VTT files</a></li>
-  <li><a href="#2021-04may" id="markdown-toc-2021-04may">2021-04May</a></li>
-  <li><a href="#2020-08august" id="markdown-toc-2020-08august">2020-08August</a></li>
-  <li><a href="#2019-02feb-through-2019-05may" id="markdown-toc-2019-02feb-through-2019-05may">2019-02Feb through 2019-05May</a></li>
-  <li><a href="#2019-02feb-21" id="markdown-toc-2019-02feb-21">2019-02Feb-21</a></li>
+  <li><a href="#may-2021-updates" id="markdown-toc-may-2021-updates">May 2021 updates</a></li>
 </ul>
 
 
@@ -162,86 +166,57 @@
 
 
 
-<p><em>This changelog includes some Markdown and HTML syntax to facilitate updating translations.</em></p>
-
-<p><strong>Note: Some code-level fixes are missing below, and will be added in May 2021. (Thanks, Tolu Adegbite!)</strong></p>
+<p><strong><em>Translators:</em></strong></p>
+<ul>
+  <li>Change <code class="language-plaintext highlighter-rouge">last_updated</code> to the date of the translation update.</li>
+  <li>The other dates after <code class="language-plaintext highlighter-rouge">footer &gt;</code> should match the English version.</li>
+  <li>From the GitHub pull request, after a couple of minutes, you can get a preview of your rendered page by selecting the “Details” link after “netlify/wai-…/deploy-preview — Deploy preview ready!”. Then select your language at the top.</li>
+</ul>
 
 <h2 id="for-translators---vtt-files">For Translators - VTT files</h2>
 
-<p>Here is the latest list of subtitles. You can use this and not need to find all the VTT additions below.</p>
+<p>Here is the latest list of subtitles:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>subtitles="W3C_INTRO_SFHI.ar.vtt|ar,W3C_INTRO_SFHI.de.vtt|de,W3C_INTRO_SFHI.es.vtt|es,W3C_INTRO_SFHI.fr.vtt|fr,W3C_INTRO_SFHI.gu.vtt|gu,W3C_INTRO_SFHI.hi.vtt|hi,W3C_INTRO_SFHI.kok.vtt|kok,W3C_INTRO_SFHI.ko.vtt|ko,W3C_INTRO_SFHI.ml.vtt|ml,W3C_INTRO_SFHI.mr.vtt|mr,W3C_INTRO_SFHI.nl.vtt|nl,W3C_INTRO_SFHI.pt-BR.vtt|pt-BR,W3C_INTRO_SFHI.te.vtt|te,W3C_INTRO_SFHI.zh.vtt|zh,W3C_INTRO_SFHI.ja.vtt|ja,W3C_INTRO_SFHI.it.vtt|it,W3C_INTRO_SFHI.hu.vtt|hu,W3C_INTRO_SFHI.el.vtt|el,W3C_INTRO_SFHI.ru.vtt|ru,W3C_INTRO_SFHI.cs.vtt|cs,W3C_INTRO_SFHI.id.vtt|id,W3C_INTRO_SFHI.fa.vtt|fa"
 </code></pre></div></div>
 
 <p><strong>To set the video subtitles to default to your language:</strong></p>
 <ol>
-  <li>Delete <code class="language-plaintext highlighter-rouge">|default</code> from: <code class="language-plaintext highlighter-rouge">captions="W3C_INTRO_SFHI.vtt|en|default"</code> so it’s:<br /><code class="language-plaintext highlighter-rouge">captions="W3C_INTRO_SFHI.vtt|en"</code></li>
-  <li>Add <code class="language-plaintext highlighter-rouge">|default</code> after your language vtt. For example:<br /><code class="language-plaintext highlighter-rouge">,W3C_INTRO_SFHI.ar.vtt|ar|default,</code></li>
+  <li>Delete <code class="language-plaintext highlighter-rouge">|default</code> from: <code class="language-plaintext highlighter-rouge">captions="W3C_INTRO_SFHI.vtt|en|default"</code> so it’s:<br /><code>captions="W3C_INTRO_SFHI.vtt|en"</code></li>
+  <li>Add <code class="language-plaintext highlighter-rouge">|default</code> after your language vtt. For example:<br /><conde> ,W3C_INTRO_SFHI.ar.vtt|ar|default, &lt;/code&gt;</conde></li>
 </ol>
 
-<h2 id="2021-04may">2021-04May</h2>
+<h2 id="may-2021-updates">May 2021 updates</h2>
 
 <ul>
-  <li>Added video subtitle files: <code class="language-plaintext highlighter-rouge">,W3C_INTRO_SFHI.id.vtt|id,W3C_INTRO_SFHI.fa.vtt|fa</code></li>
-</ul>
-
-<h2 id="2020-08august">2020-08August</h2>
-
-<ul>
-  <li>Added video subtitle file: <code class="language-plaintext highlighter-rouge">,W3C_INTRO_SFHI.cs.vtt|cs</code></li>
-</ul>
-
-<h2 id="2019-02feb-through-2019-05may">2019-02Feb through 2019-05May</h2>
-
-<ul>
-  <li>Fixed typo “quite”-&gt;”quiet”:<br />from: <q>For example, captions benefit anyone in a loud or in a quite environment.</q><br />    to: <q>For example, captions benefit anyone in a loud or in a quiet environment.</q></li>
-  <li>Added to footer: &lt;blockquote&gt;Video clips developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission. Translations managed with support from the <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access project</a>, funded by the Ford Foundation.&lt;/blockquote&gt;</li>
-  <li>Added quotes around “Language” in the <a href="https://www.w3.org/WAI/videos/standards-and-benefits/#translations">Translations section</a>.</li>
-</ul>
-
-<h2 id="2019-02feb-21">2019-02Feb-21</h2>
-
-<ul>
-  <li>
-    <p><strong>Changed all 4 bullets under the video, after “This video information is available”</strong> to:</p>
-
-    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">*</span> <span class="gs">**In different languages**</span> — <span class="p">[</span><span class="nv">Instructions to see subtitles and transcripts</span><span class="p">](</span><span class="sx">#translations</span><span class="p">)</span> are below
-<span class="p">*</span> As a <span class="gs">**[Text Transcript with Description of Visuals](#transcript)**</span> below
-<span class="p">*</span> <span class="p">[</span><span class="nv">On YouTube</span><span class="p">](</span><span class="sx">https://www.youtube.com/watch?v=20SHvU2PKsM</span><span class="p">)</span>
-<span class="p">*</span> On a W3C server — <span class="p">[</span><span class="nv">video (file format: MP4, file size: 28MB)</span><span class="p">](</span><span class="sx">http://media.w3.org/wai/accessibility-intro/intro.mp4</span><span class="p">)</span>, <span class="p">[</span><span class="nv">English captions file (VTT)</span><span class="p">](</span><span class="sx">http://media.w3.org/wai/accessibility-intro/W3C_INTRO_SFHI.en.vtt</span><span class="p">)</span>, <span class="p">[</span><span class="nv">list of other language files</span><span class="p">](</span><span class="sx">http://media.w3.org/wai/accessibility-intro/</span><span class="p">)</span>
-{% comment %}# For translations, replace:
-"<span class="p">[</span><span class="nv">English captions file (VTT)</span><span class="p">](</span><span class="sx">http://media.w3.org/wai/accessibility-intro/W3C_INTRO_SFHI.en.vtt</span><span class="p">)</span>", with translation of:
-"<span class="p">[</span><span class="nv">[your language] subtitle file (VTT)</span><span class="p">](</span><span class="sx">http://media.w3.org/wai/accessibility-intro/W3C_INTRO_SFHI.[lang</span> code].vtt)".
-{% endcomment %}
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p><strong>Changed paragraph under <a href="https://www.w3.org/WAI/videos/standards-and-benefits/#translate-into-other-languages">Translate into Other Languages heading</a></strong> to:</p>
-
-    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>We welcome additional translations. If you translate the <span class="p">[</span><span class="nv">VTT file</span><span class="p">](</span><span class="sx">/WAI/content-images/wai-video-standards-and-benefits/W3C_INTRO_SFHI.vtt</span><span class="p">)</span>, please send it to <span class="nv">&lt;public-wai-translations@w3.org&gt;</span>. If you might want to translate this entire web page or others, please see <span class="p">[</span><span class="nv">Translating WAI Resources</span><span class="p">](</span><span class="sx">https://www.w3.org/WAI/about/translating/</span><span class="p">)</span>.
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p><strong>Added sentence/paragraph under <a href="https://www.w3.org/WAI/videos/standards-and-benefits/#translations">Translations heading</a></strong>:</p>
-
-    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Translations are available as subtitles and transcripts.<span class="nt">&lt;br&gt;</span>
-{% comment %}# For translations: The sentence above will change when we publish the translations. In your translation, please replace the paragraph above with: "There are some translations of this entire web page. They are linked at the top of this page.<span class="nt">&lt;br&gt;</span>There are <span class="gs">**more translations of just the video**</span>. They are available as subtitles and transcripts."<span class="nt">&lt;br&gt;</span>
-{% endcomment %}
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p><strong>Added to meta-data</strong>: <code class="language-plaintext highlighter-rouge">nav_title: "Video Introduction" # A short title that is used in the navigation</code><br />(Translators: Please provide a translation of “Video Introduction”, or confirm the one we put in there.)</p>
-  </li>
-  <li>
-    <p>Added link to changelog in the page footer.</p>
+  <li>Added to end of footer text (in the frontmatter near the top):
+<code class="language-plaintext highlighter-rouge">Video clips developed with support from the &lt;a href="https://www.w3.org/WAI/DEV/"&gt;WAI-DEV project&lt;/a&gt;, co-funded by the European Commission. Translations managed with support from the &lt;a href="https://www.w3.org/WAI/expand-access/"&gt;WAI Expanding Access project&lt;/a&gt;, funded by the Ford Foundation.</code>
+<br />(Put it inside the closing <code class="language-plaintext highlighter-rouge">&lt;/p&gt;</code> )</li>
+  <li>Added changelog:
+    <ol>
+      <li>Added “changelog: /videos/standards-and-benefits/changelog/” between ref and layout:
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ref: /videos/standards-and-benefits/   # Do not change this
+ changelog: /videos/standards-and-benefits/changelog/
+ layout: default
+</code></pre></div>        </div>
+      </li>
+      <li>Added “CHANGELOG.” after date:<br />
+ <code class="language-plaintext highlighter-rouge">Updated 4 May 2021. First published 4 December 2017. CHANGELOG.</code>
+        <ul>
+          <li>Shawn to do: … list which ones…</li>
+        </ul>
+      </li>
+    </ol>
   </li>
 </ul>
 
+<p><em>Thanks to Tolu Adegbite for work on May 2021 updates!</em></p>
 
-    <aside class="box box-icon box-space-above" id="helpimprove"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:wai-eo-editors@w3.org?subject=[en]%20Changelog%20for%20Video%20Introduction%20to%20Web%20Accessibility%20and%20W3C%20Standards">wai-eo-editors@w3.org</a> or via GitHub.</p>
+
+    <aside class="box box-icon box-space-above" id="helpimprove"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:wai@w3.org?subject=[en]%20Changelog%20for%20Video%20Introduction%20to%20Web%20Accessibility%20and%20W3C%20Standards">wai@w3.org</a> or via GitHub.</p>
 <div class="button-group">
-    <a href="mailto:wai-eo-editors@w3.org?subject=[en]%20Changelog%20for%20Video%20Introduction%20to%20Web%20Accessibility%20and%20W3C%20Standards&body=[put%20comment%20here...]" class="button"><span>E-mail</span></a>
-    <a href="https://github.com/w3c/wai-video-standards-and-benefits/edit/master/changelog.md"  class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/wai-video-standards-and-benefits/issues/new" class="button"><span>New GitHub Issue</span></a>
+    <a href="mailto:wai@w3.org?subject=[en]%20Changelog%20for%20Video%20Introduction%20to%20Web%20Accessibility%20and%20W3C%20Standards&body=[put%20comment%20here...]%5Cn%5CnI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list.%22%7D" class="button"><span>E-mail</span></a>
+    <a href="https://github.com/w3c/wai-video-standards-and-benefits/edit/master/content/changelog.md"  class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/wai-video-standards-and-benefits/issues/new" class="button"><span>New GitHub Issue</span></a>
 </div></div></aside>
 
 
@@ -250,6 +225,12 @@
 </div>
 
 
+  
+  <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
+    <div class="inner">
+      <p><strong>Editor:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>. Contributor: Tolu Adegbite.</p>
+</div>
+  </footer>
   
 
 
@@ -283,9 +264,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1620944262535422993"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1620953429056239883"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1620944262535422993"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1620953429056239883"></script>
 <script>
   svg4everybody();
 </script><script>
