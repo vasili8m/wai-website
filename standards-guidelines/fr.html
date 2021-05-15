@@ -9,13 +9,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1621079249287427786";
+      element.src = "/WAI/assets/scripts/main.js?1621100576395361475";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1621079249287427786">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1621100576395361475">
 
 <title> Vue d’ensemble des standards d’accessibilité du W3C | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v4.2.0" />
@@ -161,14 +161,14 @@
   <p>Cette traduction faite par des volontaires peut ne pas refléter les intentions de <a href="/WAI/standards-guidelines/">l’original en anglais</a>.</p>
   
   
-  <p><svg focusable="false" aria-hidden="true" class="icon-warning "><use xlink:href="/WAI/assets/images/icons.svg#icon-warning"></use></svg> Version anglaise mise à jour depuis cette traduction&#8239;: <a href="$1">changements</a>.
-    <br>Version anglaise mise à jour le&#8239;: <span dir="auto">2021-04-30</span>. Traduction mise à jour&#8239;: <span dir="auto">2019-06-17</span>.
-  </p>
+  <p><svg focusable="false" aria-hidden="true" class="icon-check-circle "><use xlink:href="/WAI/assets/images/icons.svg#icon-check-circle"></use></svg> Traduction à jour par rapport à la version anglaise.
+    <br>Traduction mise à jour&#8239;: <span dir="auto">2021-05-15</span>. Version anglaise mise à jour le&#8239;: <span dir="auto">2021-04-30</span>.
+   </p>
   
   
   <p>
     <strong>Traduction&#8239;:</strong> @code-elegant. 
-    <br>WAI remercie ces traducteurs, et accueille volontiers d’autres <a href="/WAI/about/translating/">traductions</a>.</p>
+    Contribution&#8239;: Victoria Menezes Miller. <br>WAI remercie ces traducteurs, et accueille volontiers d’autres <a href="/WAI/about/translating/">traductions</a>.</p>
 </section><aside class="box box-full"><header class="box-h  box-h-full"> <h2> Résumé </h2></header><div class="box-i">
 
 <p>Cette page introduit les lignes directrices et autres standards relatifs à l’accessibilité du web.</p>
@@ -187,9 +187,10 @@
 <ul id="markdown-toc">
   <li><a href="#intro" id="markdown-toc-intro">Introduction</a></li>
   <li><a href="#guidelines" id="markdown-toc-guidelines">Règles d’accessibilité</a>    <ul>
-      <li><a href="#wcag" id="markdown-toc-wcag">Règles pour l’accessibilité des contenus Web (WCAG)</a></li>
+      <li><a href="#wcag" id="markdown-toc-wcag">Règles pour l’accessibilité des contenus Web (WCAG) 2</a></li>
       <li><a href="#atag" id="markdown-toc-atag">Règles d’accessibilité pour les outils d’édition (ATAG)</a></li>
       <li><a href="#uaag" id="markdown-toc-uaag">Règles pour l’accessibilité des agents utilisateurs (UAAG)</a></li>
+      <li><a href="#wcag3" id="markdown-toc-wcag3">Règles pour l’accessibilité du W3C (WCAG) 3 Projet de travail</a></li>
     </ul>
   </li>
   <li><a href="#spécifications-techniques" id="markdown-toc-spécifications-techniques">Spécifications techniques</a>    <ul>
@@ -197,6 +198,7 @@
       <li><a href="#multimedia" id="markdown-toc-multimedia">Audio et vidéo</a></li>
       <li><a href="#eval" id="markdown-toc-eval">Évaluation</a></li>
       <li><a href="#personnalisation" id="markdown-toc-personnalisation">Personnalisation</a></li>
+      <li><a href="#pronunciation" id="markdown-toc-pronunciation">Pronunciation</a></li>
     </ul>
   </li>
   <li><a href="#autres-champs-de-travail-de-linitiative-pour-laccessibilité-du-web-wai" id="markdown-toc-autres-champs-de-travail-de-linitiative-pour-laccessibilité-du-web-wai">Autres champs de travail de l’Initiative pour l’accessibilité du web (WAI)</a></li>
@@ -220,9 +222,9 @@
 
 <h2 id="guidelines">Règles d’accessibilité</h2>
 
-<p>Les <a href="/fundamentals/components/fr">Éléments essentiels de l’accessibilité du Web</a> montrent comment l’accessibilité du web dépend de la combinaison harmonieuse des nombreuses composantes du développement web et de l’interaction utilisateur, et comment les règles WAI (WCAG, ATAG, UAAG) s’appliquent.</p>
+<p>Les <a href="/WAI/fundamentals/components/" hreflang="en">Éléments essentiels de l’accessibilité du Web (en anglais)</a> montrent comment l’accessibilité du web dépend de la combinaison harmonieuse des nombreuses composantes du développement web et de l’interaction utilisateur, et comment les règles WAI (WCAG, ATAG, UAAG) s’appliquent.</p>
 
-<h3 id="wcag">Règles pour l’accessibilité des contenus Web (WCAG)</h3>
+<h3 id="wcag">Règles pour l’accessibilité des contenus Web (WCAG) 2</h3>
 
 <p>Le « contenu » web fait référence à l’information présente dans une page ou application web, y compris :</p>
 
@@ -233,13 +235,15 @@
 
 <p>Les WCAG s’appliquent au contenu dynamique, multimédia, « mobile »… Les WCAG peuvent aussi être appliquées aux technologies de l’information et de la communication « non-web », ainsi que décrit dans <a href="/WAI/standards-guidelines/wcag/non-web-ict/" hreflang="en">WCAG2ICT (en anglais)</a>.</p>
 
-<p>Informations autour des WCAG :</p>
+<p>Informations autour des WCAG 2 :</p>
 <ul>
   <li><a href="/WAI/standards-guidelines/wcag/fr">Vue d’ensemble des WCAG</a></li>
-  <li><a href="/WAI/standards-guidelines/wcag/glance/fr">Les WCAG 2.1 en un coup d’œil</a></li>
-  <li><a href="https://www.w3.org/WAI/WCAG21/quickref/">Comment satisfaire aux WCAG 2 (référence rapide) (en anglais)</a></li>
-  <li><a href="https://www.w3.org/Translations/WCAG20-fr/">Le standard WCAG 2.0 (en anglais)</a></li>
-  <li><a href="https://www.w3.org/TR/WCAG21/">Le standard WCAG 2.1 (en anglais)</a></li>
+  <li><a href="/WAI/standards-guidelines/wcag/glance/fr">WCAG 2.1 en bref</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG21/quickref/">Comment satisfaire aux WCAG 2 (référence rapide)</a></li>
+  <li><a href="/WAI/standards-guidelines/wcag/translations/" hreflang="en">Traductions WCAG 2 (en anglais)</a></li>
+  <li><a href="https://www.w3.org/Translations/WCAG20-fr/">Le standard WCAG 2.0</a></li>
+  <li><a href="https://www.w3.org/TR/WCAG21/">Le standard WCAG 2.1 (en anglais)</a>, <a href="/WAI/standards-guidelines/wcag/new-in-21/" hreflang="en">Nouveautés de WCAG 2.1 (en anglais)</a></li>
+  <li><a href="/WAI/standards-guidelines/wcag/new-in-22/" hreflang="en">Nouveautés de la version préliminaire des WCAG 2.2 (en anglais)</a></li>
 </ul>
 
 <h3 id="atag">Règles d’accessibilité pour les outils d’édition (ATAG)</h3>
@@ -265,6 +269,14 @@
 <ul>
   <li><a href="/WAI/standards-guidelines/uaag/" hreflang="en">Vue d’ensemble des UAAG (en anglais)</a></li>
   <li><a href="https://www.w3.org/TR/UAAG20/">Note UAAG 2.0 (en anglais)</a></li>
+</ul>
+
+<h3 id="wcag3">Règles pour l’accessibilité du W3C (WCAG) 3 Projet de travail</h3>
+<p>WCAG 3 est un premier projet destiné à devenir une norme W3C. WCAG 3 s’applique au contenu Web, aux applications, aux outils, à la publication et aux technologies émergentes sur le Web.</p>
+
+<p>Informations autour des WCAG 3 :</p>
+<ul>
+  <li><a href="/WAI/standards-guidelines/wcag/wcag3-intro/" hreflang="en">Introduction aux WCAG 3 (en anglais)</a></li>
 </ul>
 
 <h2 id="spécifications-techniques">Spécifications techniques</h2>
@@ -316,6 +328,9 @@
 
 <p><a href="/WAI/personalization/" hreflang="en">Vue d’ensemble sur la personnalisation (en anglais)</a> — La personnalisation implique l’adaptation sur mesure de l’expérience utilisateur pour satisfaire les besoins et préférences de l’utilisateur individuel. Les créateurs de contenu peuvent utiliser les standards à propos de la personnalisation pour fournir une conception par défaut et permettre une personnalisation par l’utilisateur avec un effort minimisé.</p>
 
+<h3 id="pronunciation">Pronunciation</h3>
+<p><a href="/WAI/pronunciation/" hreflang="en">Aperçu de la prononciation (en anglais)</a> — La prononciation concerne les lecteurs d’écran et autres synthèses de synthèse vocale (TTS) qui prononcent correctement le contenu.</p>
+
 <h2 id="autres-champs-de-travail-de-linitiative-pour-laccessibilité-du-web-wai">Autres champs de travail de l’Initiative pour l’accessibilité du web (WAI)</h2>
 
 <ul>
@@ -331,7 +346,7 @@
 
 <ul>
   <li>
-    <p><a href="https://www.w3.org/TR/?tag=accessibility">Liste de tous les standards relatifs à l’accessibilité (« Recommandations W3C ») et notes de groupe de travail (en anglais)</a></p>
+    <p><a href="https://www.w3.org/TR/?tag=accessibility">Liste de tous les standards relatifs à l’accessibilité (« Recommandations W3C ») et notes de groupe de travail</a></p>
   </li>
   <li>
     <p><a href="/WAI/policies/" hreflang="en">Lois &amp; politiques relatives à l’accessibilité web (en anglais)</a> liste les lois et politiques gouvernementales relatives à l’accessibilité web dans les pays et les régions du monde entier. Beaucoup d’entre elles font référence aux standards d’accessibilité du W3C.</p>
@@ -365,7 +380,7 @@
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner">
-      <p><strong>Date :</strong> Mis à jour le 13 mars 2019.</p> <p><strong>Éditrice :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p> <p>Élaboré avec des contributions du groupe de travail « Éducation et Rayonnement » (Education and Outreach Working Group <a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
+      <p><strong>Date :</strong> Mis à jour le 30 avril 2021. <a href="/WAI/standards-guidelines/changelog/">changements</a>.</p> <p><strong>Éditrice :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p> <p>Élaboré avec des contributions du groupe de travail « Éducation et Rayonnement » (Education and Outreach Working Group <a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 </div>
   </footer>
   
@@ -401,13 +416,13 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1621079249287427786"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1621100576395361475"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1621079249287427786"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1621100576395361475"></script>
 <script>
   svg4everybody();
 </script>
-<script src="/WAI/assets/scripts/lang/fr.js?1621079249287427786"></script><!-- Matomo -->
+<script src="/WAI/assets/scripts/lang/fr.js?1621100576395361475"></script><!-- Matomo -->
 <script>
   var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
