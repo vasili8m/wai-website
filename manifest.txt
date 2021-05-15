@@ -295,6 +295,7 @@
 /content-images/wai-InvolveUsersAll/involving-users-cc.vtt
 /content-images/wai-InvolveUsersAll/video-thumb-involving-users.png
 /content-images/wai-InvolveUsersEval/involving-users-cc.vtt
+/content-images/wai-InvolveUsersEval/involving-users-fr.vtt
 /content-images/wai-InvolveUsersEval/video-thumb-involving-users.png
 /content-images/wai-about-w3c-process/cr.gif
 /content-images/wai-about-w3c-process/lcwd.gif
@@ -945,6 +946,7 @@
 /test-evaluate/conformance/wcag-em/index.html
 /test-evaluate/es.html
 /test-evaluate/index.html
+/test-evaluate/involving-users/fr.html
 /test-evaluate/involving-users/index.html
 /test-evaluate/preliminary/index.html
 /test-evaluate/report-template/index.html
