@@ -324,7 +324,9 @@
 /content-images/wai-conformance-eval-overview/conformance-evaluation-cc.vtt
 /content-images/wai-eval-overview/conformance-evaluation-cc.vtt
 /content-images/wai-eval-overview/easy-checks-accessibility-cc.vtt
+/content-images/wai-eval-overview/easy-checks-accessibility-fr.vtt
 /content-images/wai-eval-overview/evaluating-resources-overview-cc.vtt
+/content-images/wai-eval-overview/evaluating-resources-overview-fr.vtt
 /content-images/wai-eval-overview/involving-users-cc.vtt
 /content-images/wai-eval-overview/tools-for-evaluating-cc.vtt
 /content-images/wai-eval-overview/video-thumb-conformance.png
@@ -519,7 +521,6 @@
 /fundamentals/index.html
 /index.html
 /link/to/page/index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
