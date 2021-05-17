@@ -502,6 +502,7 @@
 /fundamentals/accessibility-intro/fr.html
 /fundamentals/accessibility-intro/id.html
 /fundamentals/accessibility-intro/index.html
+/fundamentals/accessibility-intro/ko.html
 /fundamentals/accessibility-intro/ru.html
 /fundamentals/accessibility-intro/zh-hans.html
 /fundamentals/accessibility-principles/ar.html
@@ -950,6 +951,7 @@
 /test-evaluate/conformance/index.html
 /test-evaluate/conformance/wcag-em/index.html
 /test-evaluate/es.html
+/test-evaluate/fr.html
 /test-evaluate/index.html
 /test-evaluate/involving-users/fr.html
 /test-evaluate/involving-users/index.html
