@@ -948,6 +948,7 @@
 /test-evaluate/acknowledgements/index.html
 /test-evaluate/changelog/index.html
 /test-evaluate/combined-expertise/index.html
+/test-evaluate/conformance/fr.html
 /test-evaluate/conformance/index.html
 /test-evaluate/conformance/wcag-em/index.html
 /test-evaluate/es.html
@@ -957,6 +958,7 @@
 /test-evaluate/involving-users/index.html
 /test-evaluate/preliminary/index.html
 /test-evaluate/report-template/index.html
+/test-evaluate/tools/fr.html
 /test-evaluate/tools/index.html
 /test-evaluate/tools/selecting/index.html
 /tips/acknowledgements/index.html
