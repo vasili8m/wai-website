@@ -303,6 +303,7 @@
 /content-images/wai-about-w3c-process/rec.gif
 /content-images/wai-about-w3c-process/wd.gif
 /content-images/wai-about-wai/eu.svg
+/content-images/wai-about-wai/social-translations.png
 /content-images/wai-about-wai/wai-tools/video1.vtt
 /content-images/wai-about-wai/wai-tools/video2.vtt
 /content-images/wai-about-wai/wai-tools/video3.vtt
