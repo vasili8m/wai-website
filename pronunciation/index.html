@@ -9,13 +9,13 @@
 
     function downloadJSAtOnload() {
       var element = document.createElement("script");
-      element.src = "/WAI/assets/scripts/main.js?1621388503988989472";
+      element.src = "/WAI/assets/scripts/main.js?1621453785381300984";
       document.body.appendChild(element);
     }
 
     window.addEventListener("load", downloadJSAtOnload, false);
   </script>
-  <link rel="stylesheet" href="/WAI/assets/css/style.css?1621388503988989472">
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1621453785381300984">
 
 <title> Pronunciation Overview | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v4.2.0" />
@@ -139,11 +139,13 @@
       </h1></header>
     <aside class="box"><header class="box-h "> Summary</header><div class="box-i">
 
-<p>This page introduces work on pronunciation. The goal is to provide normative specifications and best practices guidance so that text-to-speech (TTS) synthesis can provide proper pronunciation of HTML content.</p>
+<p>This page introduces work to enable screen readers and voice assistants to pronounce words correctly.</p>
+
+<p>The goal is to provide standards and best practices for text-to-speech (TTS) synthesis of HTML content.</p>
 
 <p>Quick link to latest publication:</p>
 <ul>
-  <li><a href="https://www.w3.org/TR/spoken-html/">Specification for Spoken Presentation in HTML <em>(Working Draft)</em></a></li>
+  <li><a href="https://www.w3.org/TR/spoken-html/">Specification for Spoken Presentation in HTML <em>(Working Draft Note)</em></a></li>
 </ul>
 
 </div></aside>
@@ -174,13 +176,23 @@
 
 <h2 id="introduction">Introduction</h2>
 
-<p>Most people who are blind rely on specialized text-to-speech (TTS) software called screen readers. Some people with cognitive disabilities who have difficulty processing written text also use screen readers.</p>
+<p>Most people who are blind rely on text-to-speech (TTS) software called screen readers. Some people with cognitive disabilities who have difficulty processing written text also use screen readers. Text-to-speech is essential for people with disabilities and useful for all.</p>
 
-<p>Text-to-speech is essential for people with disabilities and useful for all. Accurate pronunciation is essential in many situations, such as education and assessment (testing students). Many computers and mobile devices today have built in text-to-speech functionality that is used by people without disabilities in different situations, such as when they lose their glasses or their eyes are tired.</p>
+<p>TTS is now widely used in popular applications such as voice assistants. Many computers and mobile devices today have built in text-to-speech functionality that is used by people without disabilities in different situations, such as when they lose their glasses or their eyes are tired.</p>
 
-<p>Currently text-to-speech pronunciation is often inaccurate and inconsistent because of technology limitations. For example, incorrect pronunciation based on context, regional variation, or emphasis.</p>
+<p>Accurate pronunciation is essential in many situations, such as education and assessment (testing students).</p>
 
-<p>W3C is working toward developing normative specifications and best practices guidance so that text-to-speech (TTS) synthesis can provide proper pronunciation of HTML content. The documents below provide the foundation for this work.</p>
+<p>Currently text-to-speech pronunciation is often inaccurate and inconsistent because of technology limitations. For example, incorrect pronunciation may be based on context, regional variation, or emphasis.</p>
+
+<aside class="box"><header class="box-h "> Examples:</header><div class="box-i">
+
+<p>The address:<br />“123 Maple Dr., St. Paul, Minn” is often spoken by TTS as:<br />“123 maple doctor, street paul, min”  instead of:<br />“123 Maple Drive, Saint Paul, Minnesota”.</p>
+
+<p>“Reading” is pronounced differently if it is the city in England or in the phrase “reading a book”.</p>
+
+</div></aside>
+
+<p>W3C is developing normative specifications (standards) and guidance on best practices so that text-to-speech (TTS) synthesis pronounce HTML content (for example, web pages) correctly. This will allow content creators specify how words should be pronounced.</p>
 
 <h2 id="explainer-and-user-scenarios">Explainer and User Scenarios</h2>
 
@@ -196,7 +208,7 @@
 <ul>
   <li>End-users, including screen reader users</li>
   <li>Content providers, including educators</li>
-  <li>Software developers, including content managements systems</li>
+  <li>Software developers, including content management systems</li>
 </ul>
 
 <h2 id="exploring-technical-solutions">Exploring Technical Solutions</h2>
@@ -212,7 +224,7 @@
   <li>Describes how the required features may be met by existing approaches</li>
 </ul>
 
-<p><strong><a href="https://www.w3.org/TR/spoken-html/">Specification for Spoken Presentation in HTML</a></strong> provides details on two markup approaches. Both satisfy the requirements and provide consistent results. We seek feedback from authors and implementors on which approach would be most implementable across all applications of spoken presentation.</p>
+<p><strong><a href="https://www.w3.org/TR/spoken-html/">Specification for Spoken Presentation in HTML</a></strong> provides details on two markup approaches. Both satisfy the requirements and provide consistent results. We seek feedback from authors and implementors on which approach would be most implementable across all spoken presentation applications.</p>
 
 <h2 id="who-develops-the-pronunciation-documents">Who Develops the Pronunciation Documents</h2>
 
@@ -242,7 +254,7 @@
   
   <footer id="wai-site-footer" class="page-footer default-grid" aria-label="Page">
     <div class="inner">
-      <p><strong>Date:</strong> Updated 18 May 2021.</p> <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="http://www.w3.org/People/roy/">Ruoxi Ran</a>.</p> <p>Developed with input from the <a href="https://www.w3.org/WAI/APA/task-forces/pronunciation/">Pronunciation Task Force</a>.<p>
+      <p><strong>Date:</strong> Updated 19 May 2021.</p> <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="http://www.w3.org/People/roy/">Ruoxi Ran</a>.</p> <p>Developed with input from the <a href="https://www.w3.org/WAI/APA/task-forces/pronunciation/">Pronunciation Task Force</a>.<p>
 </div>
   </footer>
   
@@ -278,9 +290,9 @@
     </ul>
   </div>
 </footer><!-- Details4Everybody -->
-<script src="/WAI/assets/scripts/details4everybody.js?1621388503988989472"></script>
+<script src="/WAI/assets/scripts/details4everybody.js?1621453785381300984"></script>
 <!-- SVG4Everybody -->
-<script src="/WAI/assets/scripts/svg4everybody.js?1621388503988989472"></script>
+<script src="/WAI/assets/scripts/svg4everybody.js?1621453785381300984"></script>
 <script>
   svg4everybody();
 </script><script>
