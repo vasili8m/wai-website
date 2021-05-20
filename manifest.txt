@@ -16,6 +16,7 @@
 /about/participating/index.html
 /about/projects/easy-reading/index.html
 /about/projects/index.html
+/about/projects/wai-coop/first-open-meeting/index.html
 /about/projects/wai-coop/index.html
 /about/projects/wai-core-2015/index.html
 /about/projects/wai-core-ford/index.html
@@ -526,7 +527,6 @@
 /fundamentals/index.html
 /index.html
 /link/to/page/index.html
-/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
