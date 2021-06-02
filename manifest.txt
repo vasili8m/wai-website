@@ -526,6 +526,7 @@
 /fundamentals/index.html
 /index.html
 /link/to/page/index.html
+/manifest.txt
 /media/av/acknowledgements/index.html
 /media/av/av-content/index.html
 /media/av/captions/index.html
