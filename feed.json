@@ -13,6 +13,153 @@
 "items": [
     
         {
+            "id": "https://www.w3.org/WAI/news/2021-05-25/RAUR/",
+            "title": "RTC Accessibility User Requirements (RAUR) Note Published",
+            "summary": null,
+            "content_text": "RTC Accessibility User Requirements (RAUR) is published as a Working Group Note. Real-time communication (RTC) provides real-time   peer to peer audio, video, and data exchange directly between supported   user agents. This enables instantaneous applications for video and audio   calls, text chat, file exchange, screen sharing, and gaming. RAUR describes various accessibility related user needs,   requirements, and scenarios for real-time communication (RTC)   applications. These user needs should drive accessibility requirements   in various related specifications and the overall architecture that   enables RTC.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/raur/\">RTC Accessibility User Requirements (RAUR)</a> is published as a Working Group Note. Real-time communication (<abbr>RTC</abbr>) provides real-time   peer to peer audio, video, and data exchange directly between supported   user agents. This enables instantaneous applications for video and audio   calls, text chat, file exchange, screen sharing, and gaming. RAUR describes various accessibility related user needs,   requirements, and scenarios for real-time communication (RTC)   applications. These user needs should drive accessibility requirements   in various related specifications and the overall architecture that   enables RTC.</p>",
+            "url": "https://www.w3.org/WAI/news/2021-05-25/RAUR/",
+            
+            
+            
+            
+            
+            "date_published": "2021-05-25T00:00:00+00:00",
+            "date_modified": "2021-05-25T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
+            "id": "https://www.w3.org/WAI/news/2021-05-20/gaad/",
+            "title": "Accessibility Translations: Getting the 'Global' in GAAD",
+            "summary": null,
+            "content_text": "All WAI Translations now lists translations in 35 languages. Thanks to the translators. (If you know anyone who might be interested in contributing to more accessibility translations, please point them to: Translating WAI Resources)",
+            "content_html": "<p><a href=\"https://www.w3.org/WAI/translations/\">All WAI Translations</a> now lists translations in 35 languages. Thanks to the translators. (If you know anyone who might be interested in contributing to more accessibility translations, please point them to: <a href=\"https://www.w3.org/WAI/about/translating/\">Translating WAI Resources</a>)</p>",
+            "url": "https://www.w3.org/WAI/news/2021-05-20/gaad/",
+            
+            
+            
+            
+            
+            "date_published": "2021-05-20T00:00:00+00:00",
+            "date_modified": "2021-05-20T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
+            "id": "https://www.w3.org/WAI/news/2021-05-18/pronunciation/",
+            "title": "For Review: Specification for Spoken Presentation in HTML",
+            "summary": null,
+            "content_text": "Specification for Spoken Presentation in HTML Working Draft is ready for review. This document is part of W3C work on pronunciation to provide normative specifications and best practices guidance so that   text-to-speech (TTS) synthesis can properly pronounce HTML content. This Draft specification describes two possible   technical approaches for author-controlled pronunciation. W3C is    seeking more input on these approaches, particularly from content   authors and implementors. Please send comments by 18 June 2021.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/2021/WD-spoken-html-20210518/\">Specification for Spoken Presentation in HTML</a> Working Draft is ready for review. This document is part of <a href=\"https://www.w3.org/WAI/pronunciation/\">W3C work on pronunciation</a> to provide normative specifications and best practices guidance so that   text-to-speech (TTS) synthesis can properly pronounce HTML content. This Draft specification describes two possible   technical approaches for author-controlled pronunciation. W3C is    seeking more input on these approaches, particularly from content   authors and implementors. Please send comments by <strong>18 June 2021</strong>.</p>",
+            "url": "https://www.w3.org/WAI/news/2021-05-18/pronunciation/",
+            
+            
+            
+            
+            
+            "date_published": "2021-05-18T00:00:00+00:00",
+            "date_modified": "2021-05-18T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
+            "id": "https://www.w3.org/WAI/news/2021-05-13/wcag22/",
+            "title": "For Wide Review: WCAG 2.2 Working Draft",
+            "summary": null,
+            "content_text": "WCAG 2.2 Working Draft is ready wide review before finalizing WCAG 2.2. This draft has 9 new &ldquo;success criteria&rdquo; (requirements) since WCAG 2.1. The new success criteria and changes since the previous 2.2 draft are introduced in What's New in WCAG 2.2. The new success criteria address user needs of people with cognitive or learning disabilities, users of mobile devices, and users of ebooks.   Please submit comments by 11 June 2021.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/WCAG22/\">WCAG 2.2 Working Draft</a> is ready wide review before finalizing WCAG 2.2. This draft has 9 new &ldquo;success criteria&rdquo; (requirements) since WCAG 2.1. The new success criteria and changes since the previous 2.2 draft are introduced in <a href=\"https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/\">What's New in WCAG 2.2</a>. The new success criteria address user needs of people with cognitive or learning disabilities, users of mobile devices, and users of ebooks.   Please submit comments by 11 June 2021.</p>",
+            "url": "https://www.w3.org/WAI/news/2021-05-13/wcag22/",
+            
+            
+            
+            
+            
+            "date_published": "2021-05-13T00:00:00+00:00",
+            "date_modified": "2021-05-13T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
+            "id": "https://www.w3.org/WAI/news/2021-04-29/COGA/",
+            "title": "Making Content Usable for People with Cognitive and Learning Disabilities - Note Published",
+            "summary": null,
+            "content_text": "Making Content Usable for People with Cognitive and Learning Disabilities is a Working Group Note that helps you make web content, including applications, more accessible to more people. It provides informative \"supplemental guidance\" beyond the requirements of WCAG 2. It is not required for conformance to WCAG. To learn about this document and other W3C work on accessibility for people with cognitive and learning disabilities, see: Cognitive Accessibility at W3C.",
+            "content_html": "<p><a href=\"https://www.w3.org/TR/coga-usable/\">Making Content Usable for People with Cognitive and Learning Disabilities</a> is a Working Group Note that helps you make web content, including applications, more accessible to more people. It provides informative \"supplemental guidance\" beyond the requirements of WCAG 2. It is not required for conformance to WCAG. To learn about this document and other W3C work on accessibility for people with cognitive and learning disabilities, see: <a href=\"https://www.w3.org/WAI/cognitive/\">Cognitive Accessibility at W3C</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2021-04-29/COGA/",
+            
+            
+            
+            
+            
+            "date_published": "2021-04-29T00:00:00+00:00",
+            "date_modified": "2021-04-29T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
+            "id": "https://www.w3.org/WAI/news/2021-03-30/curricula/",
+            "title": "Updated Resource: Curricula on Web Accessibility",
+            "summary": null,
+            "content_text": "New Developer Modules are now published in the Curricula on Web Accessibility. This curricula provides a framework for creating courses on digital accessibility, for including accessibility in other courses, and for reviewing existing and proposed courses. The March 2021 publication includes: updated guidance in the Curricula overview page, updated Foundation Modules, and new Developer Modules. The new modules focus on accessible markup and coding techniques, primarily for teaching front-end developers. The next modules will cover designing and authoring accessible digital content.",
+            "content_html": "<p>New Developer Modules are now published in the <a href=\"https://www.w3.org/WAI/curricula/\">Curricula on Web Accessibility</a>. This curricula provides a framework for creating courses on digital accessibility, for including accessibility in other courses, and for reviewing existing and proposed courses. The March 2021 publication includes: updated guidance in the <a href=\"https://www.w3.org/WAI/curricula/\">Curricula overview page</a>, updated <a href=\"https://www.w3.org/WAI/curricula/foundation-modules/\">Foundation Modules</a>, and new <a href=\"https://www.w3.org/WAI/curricula/developer-modules/\">Developer Modules</a>. The new modules focus on accessible markup and coding techniques, primarily for teaching front-end developers. The next modules will cover designing and authoring accessible digital content.</p>",
+            "url": "https://www.w3.org/WAI/news/2021-03-30/curricula/",
+            
+            
+            
+            
+            
+            "date_published": "2021-03-30T00:00:00+00:00",
+            "date_modified": "2021-03-30T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
+            "id": "https://www.w3.org/WAI/news/2021-03-11/wcag-21-in-polish/",
+            "title": "WCAG 2.1 in Polish: Authorized Translation Published",
+            "summary": null,
+            "content_text": "Wytyczne dla dostępności treści internetowych (WCAG) 2.1, the Polish Authorized Translation of Web Content Accessibility Guidelines (WCAG) 2.1, is now available, following completion of the W3C Authorized Translations process. Other translations of WAI resources are listed in All WAI Translations. WAI encourages translations in all languages. If you might be interesting in translating resources, see Translating WAI Resources.",
+            "content_html": "<p><a href=\"https://www.w3.org/Translations/WCAG21-pl/\">Wytyczne dla dostępności treści internetowych (WCAG) 2.1</a>, the Polish Authorized Translation of <a href=\"http://www.w3.org/WAI/intro/wcag\">Web Content Accessibility Guidelines (WCAG) 2.1</a>, is now available, following completion of the <a href=\"http://www.w3.org/2005/02/TranslationPolicy\">W3C Authorized Translations process</a>. Other translations of WAI resources are listed in <a href=\"https://www.w3.org/WAI/translations/\">All WAI Translations</a>. WAI encourages translations in all languages. If you might be interesting in translating resources, see <a href=\"https://www.w3.org/WAI/about/translating/\">Translating WAI Resources</a>.</p>",
+            "url": "https://www.w3.org/WAI/news/2021-03-11/wcag-21-in-polish/",
+            
+            
+            
+            
+            
+            "date_published": "2021-03-11T00:00:00+00:00",
+            "date_modified": "2021-03-11T00:00:00+00:00",
+            
+                "author": 
+                "W3C Web Accessibility Initiative (WAI)"
+                
+            
+        },
+    
+        {
             "id": "https://www.w3.org/WAI/news/2021-01-21/WCAG3/",
             "title": "For Review: W3C Accessibility Guidelines (WCAG) 3.0 First Working Draft",
             "summary": null,
@@ -614,153 +761,6 @@
             
             "date_published": "2019-04-16T00:00:00+00:00",
             "date_modified": "2019-04-16T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2019-04-08/invitation-wai-tools-brussels/",
-            "title": "Invitation: WAI-Tools Open Meeting in Brussels, Belgium",
-            "summary": null,
-            "content_text": "You are invited to the WAI-Tools Open Meeting on 20 May 2019 in Brussels, Belgium. The meeting is intended for developers of web accessibility evaluation tools and methodologies, accessibility monitoring bodies, practitioners, evaluation and quality assurance experts and researchers, and users. Agenda, logistics, and registration information is in the WAI-Tools Meeting May 2019 page. This meeting is free and spaces are limited, so please register soon.",
-            "content_html": "<p>You are invited to the WAI-Tools Open Meeting on 20 May 2019 in Brussels, Belgium. The meeting is intended for developers of web accessibility evaluation tools and methodologies, accessibility monitoring bodies, practitioners, evaluation and quality assurance experts and researchers, and users. Agenda, logistics, and registration information is in the <a href=\"https://www.w3.org/WAI/about/projects/wai-tools/second-open-meeting/\">WAI-Tools Meeting May 2019 page</a>. This meeting is free and spaces are limited, so please register soon.</p>",
-            "url": "https://www.w3.org/WAI/news/2019-04-08/invitation-wai-tools-brussels/",
-            
-            
-            
-            
-            
-            "date_published": "2019-04-08T00:00:00+00:00",
-            "date_modified": "2019-04-08T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2019-03-28/translations/",
-            "title": "Translations: New Link to WAI Accessibility Resources",
-            "summary": null,
-            "content_text": "Translations are now easier to get to on the W3C WAI website. The “All Translations” link near the top of all WAI web pages goes to: All WAI Translations. More information about translations is in the 28 March e-mail.",
-            "content_html": "<p>Translations are now easier to get to on the W3C WAI website. The “All Translations” link near the top of all WAI web pages goes to: <a href=\"https://www.w3.org/WAI/translations/\">All WAI Translations</a>. More information about translations is in the <a href=\"https://lists.w3.org/Archives/Public/public-wai-announce/2019JanMar/0006.html\">28 March e-mail</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2019-03-28/translations/",
-            
-            
-            
-            
-            
-            "date_published": "2019-03-28T00:00:00+00:00",
-            "date_modified": "2019-03-28T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2019-03-11/WCAG-21-Chinese-Authorized-Translation/",
-            "title": "WCAG 2.1 in Chinese: Authorized Translation Published",
-            "summary": null,
-            "content_text": "Web内容无障碍指南 (WCAG) 2.1, the Chinese Authorized Translation of Web Content Accessibility Guidelines (WCAG) 2.1, is now available, following completion of the W3C Authorized Translations process. WAI encourages translating WAI documents in all languages. See:  WCAG 2 Translations for a list of other completed and planned translations  WCAG 2.1 Chinese Authorized Translation Published e-mail if you want more information",
-            "content_html": "<p><a href=\"https://www.w3.org/Translations/WCAG21-zh/\" lang=\"zh\" hreflang=\"zh\">Web内容无障碍指南 (WCAG) 2.1</a>, the Chinese Authorized Translation of <a href=\"http://www.w3.org/WAI/intro/wcag\">Web Content Accessibility Guidelines (WCAG) 2.1</a>, is now available, following completion of the <a href=\"http://www.w3.org/2005/02/TranslationPolicy\">W3C Authorized Translations process</a>. WAI encourages translating WAI documents in all languages. See:</p><ul>  <li><strong><a href=\"http://www.w3.org/WAI/WCAG20/translations\">WCAG 2 Translations</a> for a list of other completed and planned translations</strong></li>  <li><a href=\"https://lists.w3.org/Archives/Public/public-wai-announce/2019JanMar/0003.html\">WCAG 2.1 Chinese Authorized Translation Published e-mail</a> if you want more information</li></ul>",
-            "url": "https://www.w3.org/WAI/news/2019-03-11/WCAG-21-Chinese-Authorized-Translation/",
-            
-            
-            
-            
-            
-            "date_published": "2019-03-11T00:00:00+00:00",
-            "date_modified": "2019-03-11T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2019-02-14/review-captcha-update/",
-            "title": "For Review: Inaccessibility of CAPTCHA",
-            "summary": null,
-            "content_text": "An updated draft of Inaccessibility of CAPTCHA: Alternatives to Visual Turing Tests on the Web is available for review. More information is in the blog post Updated “Inaccessibility of CAPTCHA” Draft for Wide Review. Please send comments by 24 March 2019.",
-            "content_html": "<p>An updated draft of <a href=\"https://www.w3.org/TR/turingtest/\">Inaccessibility of CAPTCHA: Alternatives to Visual Turing Tests on the Web</a> is available for review. More information is in the blog post <a href=\"https://www.w3.org/blog/2019/02/captcha-accessibility-wide-review/\">Updated “Inaccessibility of CAPTCHA” Draft for Wide Review</a>. Please send comments by 24 March 2019.</p>",
-            "url": "https://www.w3.org/WAI/news/2019-02-14/review-captcha-update/",
-            
-            
-            
-            
-            
-            "date_published": "2019-02-14T00:00:00+00:00",
-            "date_modified": "2019-02-14T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2018-12-18/accessible-name-and-description-computation-accname-is-a-w3c-recommendation/",
-            "title": "Accessible Name and Description Computation (Accname) is a W3C Recommendation",
-            "summary": null,
-            "content_text": "Accessible Name and Description Computation 1.1 (“Accname”) was published today as a “W3C Recommendation” web standard. It describes how browsers and other user agents determine the names and descriptions of accessible objects from web content languages. This information is in turn exposed through accessibility APIs so that assistive technologies can identify these objects and present their names or descriptions to users.",
-            "content_html": "<p><a href=\"https://www.w3.org/TR/accname-1.1/\">Accessible Name and Description Computation 1.1</a> (“Accname”) was published today as a “W3C Recommendation” web standard. It describes how browsers and other user agents determine the names and descriptions of accessible objects from web content languages. This information is in turn exposed through accessibility APIs so that assistive technologies can identify these objects and present their names or descriptions to users.</p>",
-            "url": "https://www.w3.org/WAI/news/2018-12-18/accessible-name-and-description-computation-accname-is-a-w3c-recommendation/",
-            
-            
-            
-            
-            
-            "date_published": "2018-12-18T00:00:00+00:00",
-            "date_modified": "2018-12-18T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2018-12-06/pronunciation-task-force-seeking-participation/",
-            "title": "Pronunciation Task Force: Seeking Participation",
-            "summary": null,
-            "content_text": "The Pronunciation Task Force is seeking contributors who would like to help the Web do a better job pronouncing content through text to speech (TTS), including screen readers. See additional information in the APA Announces Pronunciation Task Force blog post.",
-            "content_html": "<p>The Pronunciation Task Force is seeking contributors who would like to help the Web do a better job pronouncing content through text to speech (TTS), including screen readers. See additional information in the <a href=\"https://www.w3.org/blog/2018/12/pronunciation-task-force/\">APA Announces Pronunciation Task Force blog post</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2018-12-06/pronunciation-task-force-seeking-participation/",
-            
-            
-            
-            
-            
-            "date_published": "2018-12-06T00:00:00+00:00",
-            "date_modified": "2018-12-06T00:00:00+00:00",
-            
-                "author": 
-                "W3C Web Accessibility Initiative (WAI)"
-                
-            
-        },
-    
-        {
-            "id": "https://www.w3.org/WAI/news/2018-11-29/develop-accessibility-statement/",
-            "title": "New Resource: Developing an Accessibility Statement",
-            "summary": null,
-            "content_text": "Developing an Accessibility Statement helps you create an accessibility statement for your website, mobile app, or other digital content. It includes a free generator tool and examples. The tool helps you collect and enter relevant information to create an accessibility statement for your particular content and situation. See more information in How to Create Accessibility Statements blog post.",
-            "content_html": "<p><a href=\"https://www.w3.org/WAI/planning/statements/\">Developing an Accessibility Statement</a> helps you create an accessibility statement for your website, mobile app, or other digital content. It includes a free generator tool and examples. The tool helps you collect and enter relevant information to create an accessibility statement for your particular content and situation. See more information in <a href=\"https://www.w3.org/blog/2018/11/how-to-create-accessibility-statements/\">How to Create Accessibility Statements blog post</a>.</p>",
-            "url": "https://www.w3.org/WAI/news/2018-11-29/develop-accessibility-statement/",
-            
-            
-            
-            
-            
-            "date_published": "2018-11-29T00:00:00+00:00",
-            "date_modified": "2018-11-29T00:00:00+00:00",
             
                 "author": 
                 "W3C Web Accessibility Initiative (WAI)"
