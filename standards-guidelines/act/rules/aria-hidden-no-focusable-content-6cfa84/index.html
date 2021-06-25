@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js');
+
+    function downloadJSAtOnload() {
+      var element = document.createElement("script");
+      element.src = "/WAI/assets/scripts/main.js?1624588661659145651";
+      document.body.appendChild(element);
+    }
+
+    window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+  <link rel="stylesheet" href="/WAI/assets/css/style.css?1624588661659145651">
+
+<title> Element with aria-hidden has no focusable content | Web Accessibility Initiative (WAI) | W3C</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Element with aria-hidden has no focusable content" />
+<meta name="author" content="W3C Web Accessibility Initiative (WAI)" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="The Website of the World Wide Web Consortium’s Web Accessibility Initiative." />
+<meta property="og:description" content="The Website of the World Wide Web Consortium’s Web Accessibility Initiative." />
+<link rel="canonical" href="https://www.w3.org/WAI/standards-guidelines/act/rules/aria-hidden-no-focusable-content-6cfa84/" />
+<meta property="og:url" content="https://www.w3.org/WAI/standards-guidelines/act/rules/aria-hidden-no-focusable-content-6cfa84/" />
+<meta property="og:site_name" content="Web Accessibility Initiative (WAI)" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Element with aria-hidden has no focusable content" />
+<meta name="twitter:site" content="@w3c_wai" />
+<meta name="twitter:creator" content="@W3C Web Accessibility Initiative (WAI)" />
+<script type="application/ld+json">
+{"description":"The Website of the World Wide Web Consortium’s Web Accessibility Initiative.","@type":"WebPage","headline":"Element with aria-hidden has no focusable content","url":"https://www.w3.org/WAI/standards-guidelines/act/rules/aria-hidden-no-focusable-content-6cfa84/","author":{"@type":"Person","name":"W3C Web Accessibility Initiative (WAI)"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<meta name="twitter:image" property="og:image" content="https://www.w3.org/WAI/assets/images/social-sharing-default.jpg">
+
+  <link rel="alternate" type="application/rss+xml" href="/WAI/feed.xml">
+</head>
+
+  <body id="top" class="page-element-with-aria-hidden-has-no-focusable-content ">
+    <nav aria-label="Skip Link and Language Selector" id="controls" class="default-grid">
+  <ul>
+        <li><a href="#main">Skip to Content</a></li>
+        <li class="opt">
+          <a href="/WAI/meta/customize/">Change Text Size or Colors</a>
+        </li>
+        <li class="opt">
+            <a href="/WAI/translations/">All Translations <svg focusable="false" aria-hidden="true" class="icon-translations "><use xlink:href="/WAI/assets/images/icons.svg#icon-translations"></use></svg></a>
+        </li>
+      </ul></nav>
+<header id="site-header" class="default-grid with-gap">
+  <div class="logos">
+    <a lang="en" class="home w3c" href="https://www.w3.org/">
+      <svg role="img" aria-label="W3C" viewBox="0 0 68 34" xmlns="http://www.w3.org/2000/svg"><g><path d="m16.117 1.006 5.759 19.58 5.759-19.58h4.17 11.444v1.946l-5.879 10.128c2.065.663 3.627 1.868 4.686 3.615 1.059 1.748 1.589 3.799 1.589 6.155 0 2.914-.775 5.363-2.324 7.348s-3.555 2.978-6.017 2.978c-1.854 0-3.469-.589-4.845-1.767-1.377-1.178-2.396-2.773-3.058-4.786l3.256-1.35c.477 1.218 1.106 2.178 1.887 2.879.781.702 1.701 1.052 2.76 1.052 1.112 0 2.052-.622 2.82-1.866.768-1.245 1.152-2.74 1.152-4.489 0-1.933-.411-3.429-1.231-4.488-.954-1.244-2.45-1.867-4.489-1.867h-1.588v-1.906l5.56-9.612h-6.712l-.382.65-8.163 27.548h-.397l-5.958-19.937-5.957 19.937h-.397l-9.53-32.168h4.17l5.759 19.58 3.892-13.185-1.906-6.395z"/><path d="m64.92 1.006c-.819 0-1.554.295-2.111.861-.591.6-.92 1.376-.92 2.178s.313 1.545.887 2.128c.583.591 1.334.912 2.145.912.793 0 1.562-.321 2.161-.903.574-.557.887-1.3.887-2.136 0-.811-.321-1.57-.878-2.136-.584-.592-1.344-.904-2.171-.904zm2.643 3.065c0 .701-.271 1.351-.768 1.832-.524.507-1.174.777-1.892.777-.675 0-1.342-.278-1.84-.785s-.777-1.157-.777-1.849.287-1.368.802-1.891c.481-.49 1.131-.751 1.84-.751.726 0 1.376.271 1.883.785.49.489.752 1.147.752 1.882zm-2.559-1.807h-1.3v3.445h.65v-1.469h.642l.701 1.469h.726l-.769-1.57c.498-.102.785-.439.785-.929 0-.625-.472-.946-1.435-.946zm-.118.422c.608 0 .886.169.886.591 0 .405-.278.549-.87.549h-.549v-1.14z"/><path d="m59.807.825.676 4.107-2.391 4.575s-.918-1.941-2.443-3.015c-1.285-.905-2.122-1.102-3.431-.832-1.681.347-3.587 2.357-4.419 4.835-.995 2.965-1.005 4.4-1.04 5.718-.056 2.113.277 3.362.277 3.362s-1.452-2.686-1.438-6.62c.009-2.808.451-5.354 1.75-7.867 1.143-2.209 2.842-3.535 4.35-3.691 1.559-.161 2.791.59 3.743 1.403 1 .854 2.01 2.721 2.01 2.721z"/><path d="m60.102 24.063s-1.057 1.889-1.715 2.617c-.659.728-1.837 2.01-3.292 2.651s-2.218.762-3.656.624c-1.437-.138-2.772-.97-3.24-1.317s-1.664-1.369-2.34-2.322-1.733-2.859-1.733-2.859.589 1.91.958 2.721c.212.467.864 1.894 1.789 3.136.863 1.159 2.539 3.154 5.086 3.604 2.547.451 4.297-.693 4.73-.97s1.346-1.042 1.924-1.66c.603-.645 1.174-1.468 1.49-1.962.231-.36.607-1.092.607-1.092z"/></g></svg>
+    </a>
+    <a lang="en" class="home" href="/WAI/">
+      <span class="wai"><span class="wa">Web&nbsp;Accessibility</span> <span class="i"><span class="initieative">Initiative</span> <span>WAI</span></span></span>
+    </a>
+    <div class="claim">
+      <span>Strategies, standards, resources to make the Web accessible to people with disabilities</span>
+    </div>
+    <button class="button button-menu" aria-haspopup="true" aria-expanded="false" id="openmenu"><span><svg focusable="false" aria-hidden="true" class="icon-menu "><use xlink:href="/WAI/assets/images/icons.svg#icon-menu"></use></svg> Menu</span></button>
+  </div>
+
+  <div class="navigations">
+  <nav class="metanav" aria-label="Meta &amp; Search" lang="en">
+    <ul>
+      <li><a href="/WAI/about/participating/">Get Involved</a></li>
+      <li><a href="/WAI/about/">About W3C WAI</a></li>
+      <li>
+        <form action="/WAI/search/" role="search">
+          <div>
+            <label for="header-search">
+              <span class="visuallyhidden">Search:</span>
+              <input id="header-search" type="search" name="q" placeholder="Search" aria-label="Search">
+            </label>
+            
+            <button class="button button-icon button-nobg button-noborder"><span><svg focusable="false" aria-label="Submit Search" class="icon-search "><use xlink:href="/WAI/assets/images/icons.svg#icon-search"></use></svg></span></button>
+          </div>
+        </form>
+      </li>
+    </ul>
+  </nav>
+</div>
+</header><nav class="mainnav" aria-label="Main" lang="en"><ul><li><a lang="en" href="/WAI/fundamentals/"><span>Accessibility Fundamentals</span></a></li><li><a lang="en" href="/WAI/planning/"><span>Planning &amp; Policies</span></a></li><li><a lang="en" href="/WAI/design-develop/"><span>Design &amp; Develop</span></a></li><li><a lang="en" href="/WAI/test-evaluate/"><span>Test &amp; Evaluate</span></a></li><li><a lang="en" href="/WAI/teach-advocate/"><span>Teach &amp; Advocate</span></a></li><li><a lang="en" href="/WAI/standards-guidelines/"><span>Standards/<wbr>Guidelines</span></a></li></ul></nav><nav class="default-grid breadcrumb" aria-label="Breadcrumb" lang="en">
+  <ul style="align-self: center;">
+    <li><a href="/WAI/" lang="en">Home</a></li><li><a lang="en" href="/WAI/news/2019-08-23/inaccessibility-of-captcha/"><span>Resources</span></a></li></ul>
+</nav>
+    <div class="default-grid with-gap leftcol">
+
+  
+    <div class="sidenav">
+</div>
+  
+
+  <main id="main" lang="en">
+
+      
+
+    
+    <header>
+      <h1>
+      
+      
+      
+        Element with aria-hidden has no focusable content
+      
+      </h1></header>
+    <aside class="box">
+  <header class="box-h ">Proposed rule</header>
+  <div class="box-i">
+    <p>
+      This rule is awaiting implementations by testing tools and methodologies. 
+      Find information about 
+      <a href="https://act-rules.github.io/pages/implementations/overview/">
+        providing implementations
+      </a>.
+    </p>
+  </div>
+</aside>
+
+<dl>
+  <dt>Rule Type:</dt>
+  <dd>atomic</dd>
+  <dt>Rule ID:</dt>
+  <dd>6cfa84</dd>
+  <dt>Last Modified:</dt>
+  <dd>June 3, 2021</dd>
+  <dt>Accessibility Requirements Mapping:</dt>
+  <dd><a href="https://www.w3.org/TR/WCAG21/#info-and-relationships">1.3.1 Info and Relationships (Level A)</a>
+    <ul>
+      <li><strong>Required for conformance</strong> to WCAG 2.0 and later on level A and higher</li>
+      <li><a href="#outcome">Outcome</a> mapping:
+        <ul>
+          <li>Any <code class="language-plaintext highlighter-rouge">failed</code> outcomes: success criterion is not satisfied</li>
+          <li>All <code class="language-plaintext highlighter-rouge">passed</code> outcomes: success criterion needs further testing</li>
+          <li>An <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome: success criterion needs further testing</li>
+        </ul>
+      </li>
+    </ul>
+  </dd>
+  <dd><a href="https://www.w3.org/TR/WCAG21/#name-role-value">4.1.2 Name, Role, Value (Level A)</a>
+    <ul>
+      <li><strong>Required for conformance</strong> to WCAG 2.0 and later on level A and higher</li>
+      <li><a href="#outcome">Outcome</a> mapping:
+        <ul>
+          <li>Any <code class="language-plaintext highlighter-rouge">failed</code> outcomes: success criterion is not satisfied</li>
+          <li>All <code class="language-plaintext highlighter-rouge">passed</code> outcomes: success criterion needs further testing</li>
+          <li>An <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome: success criterion needs further testing</li>
+        </ul>
+      </li>
+    </ul>
+  </dd>
+  <dd><a href="https://www.w3.org/TR/using-aria/#fourth">Fourth rule of ARIA use</a>
+    <ul>
+      <li>Not required to conformance to any W3C accessibility recommendation.</li>
+      <li><a href="#outcome">Outcome</a> mapping:
+        <ul>
+          <li>Any <code class="language-plaintext highlighter-rouge">failed</code> outcomes: WAI-ARIA rule is not satisfied</li>
+          <li>All <code class="language-plaintext highlighter-rouge">passed</code> outcomes: WAI-ARIA rule needs further testing</li>
+          <li>An <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome: WAI-ARIA rule needs further testing</li>
+        </ul>
+      </li>
+    </ul>
+  </dd>
+  <dt>Input Aspects:</dt>
+  <dd><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-dom">DOM Tree</a></dd>
+  <dd><a href="https://www.w3.org/TR/act-rules-aspects/#input-aspects-css">CSS Styling</a></dd>
+</dl>
+
+<h2 id="description">Description</h2>
+
+<p>This rule checks that elements with an <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute do not contain focusable elements.</p>
+
+<h2 id="applicability">Applicability</h2>
+
+<p>This rule applies to any element with an <code class="language-plaintext highlighter-rouge">aria-hidden</code> <a href="#attribute-value" title="Definition of Attribute Value">attribute value</a> of <code class="language-plaintext highlighter-rouge">true</code>.</p>
+
+<p><strong>Note:</strong> Using <code class="language-plaintext highlighter-rouge">aria-hidden="false"</code> on a descendant of an element with <code class="language-plaintext highlighter-rouge">aria-hidden="true"</code> <strong>does not</strong> expose that element. <code class="language-plaintext highlighter-rouge">aria-hidden="true"</code> hides itself and all its content from assistive technologies.</p>
+
+<h2 id="expectation">Expectation</h2>
+
+<p>None of the target elements are part of <a href="https://html.spec.whatwg.org/multipage/interaction.html#sequential-focus-navigation">sequential focus navigation</a>, nor do they have <a href="https://dom.spec.whatwg.org/#concept-tree-descendant">descendants</a> in the <a href="https://drafts.csswg.org/css-scoping/#flat-tree">flat tree</a> that are part of <a href="https://html.spec.whatwg.org/#sequential-focus-navigation">sequential focus navigation</a>.</p>
+
+<h2 id="assumptions">Assumptions</h2>
+
+<p><em>There are currently no assumptions</em></p>
+
+<h2 id="accessibility-support">Accessibility Support</h2>
+
+<p>Some user agents treat the value of <code class="language-plaintext highlighter-rouge">aria-hidden</code> attribute as case-sensitive.</p>
+
+<h2 id="background">Background</h2>
+
+<p>By adding <code class="language-plaintext highlighter-rouge">aria-hidden="true"</code> to an element, content authors ensure that assistive technologies will ignore the element. This can be used to hide parts of a web page that are <a href="https://www.w3.org/TR/WCAG21/#dfn-pure-decoration">pure decoration</a>, such as icon fonts - that are not meant to be read by assistive technologies.</p>
+
+<p>A <a href="#focusable" title="Definition of focusable">focusable</a> element with <code class="language-plaintext highlighter-rouge">aria-hidden="true"</code> is ignored as part of the reading order, but still part of the focus order, making its state of <a href="#visible">visible</a> or hidden unclear.</p>
+
+<ul>
+  <li><a href="https://drafts.csswg.org/css-scoping/">CSS Scoping Module Level 1 (editor’s draft)</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships">Understanding Success Criterion 1.3.1: Info and Relationships</a></li>
+  <li><a href="https://www.w3.org/WAI/WCAG21/Understanding/name-role-value">Understanding Success Criterion 4.1.2: Name, Role, Value</a></li>
+  <li><a href="https://www.w3.org/TR/wai-aria-1.1/#aria-hidden"><code class="language-plaintext highlighter-rouge">aria-hidden</code> (state)</a></li>
+  <li><a href="https://www.w3.org/TR/using-aria/#fourth">Fourth rule of ARIA use (work in progress)</a></li>
+</ul>
+
+<h2 id="test-cases">Test Cases</h2>
+
+<h3 id="passed">Passed</h3>
+
+<h4 id="passed-example-1">Passed Example 1</h4>
+
+<p>Content not <a href="#focusable" title="Definition of focusable">focusable</a> by default.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>Some text<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-2">Passed Example 2</h4>
+
+<p>Content hidden through CSS.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/"</span> <span class="na">style=</span><span class="s">"display:none"</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-3">Passed Example 3</h4>
+
+<p>Content taken out of sequential focus order using <code class="language-plaintext highlighter-rouge">tabindex</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;button</span> <span class="na">tabindex=</span><span class="s">"-1"</span><span class="nt">&gt;</span>Some button<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-4">Passed Example 4</h4>
+
+<p>Content made <a href="#focusable" title="Definition of focusable">unfocusable</a> through <code class="language-plaintext highlighter-rouge">disabled</code> attribute.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">disabled</span> <span class="na">aria-hidden=</span><span class="s">"true"</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-5">Passed Example 5</h4>
+
+<p><code class="language-plaintext highlighter-rouge">aria-hidden</code> can’t be reset once set to true on an ancestor.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">aria-hidden=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;button</span> <span class="na">tabindex=</span><span class="s">"-1"</span><span class="nt">&gt;</span>Some button<span class="nt">&lt;/button&gt;</span>
+	<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="passed-example-6">Passed Example 6</h4>
+
+<p>Content taken out of sequential focus order using <code class="language-plaintext highlighter-rouge">tabindex</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;button</span> <span class="na">tabindex=</span><span class="s">"-2"</span><span class="nt">&gt;</span>Some button<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h3 id="failed">Failed</h3>
+
+<h4 id="failed-example-1">Failed Example 1</h4>
+
+<p><a href="#focusable" title="Definition of focusable">Focusable</a> off screen link.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/"</span> <span class="na">style=</span><span class="s">"position:absolute; top:-999em"</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-2">Failed Example 2</h4>
+
+<p><a href="#focusable" title="Definition of focusable">Focusable</a> form field, incorrectly disabled.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;input</span> <span class="na">aria-disabled=</span><span class="s">"true"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-3">Failed Example 3</h4>
+
+<p><code class="language-plaintext highlighter-rouge">aria-hidden</code> can’t be reset once set to true on an ancestor.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">aria-hidden=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;button&gt;</span>Some button<span class="nt">&lt;/button&gt;</span>
+	<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-4">Failed Example 4</h4>
+
+<p><a href="#focusable" title="Definition of focusable">Focusable</a> content through <code class="language-plaintext highlighter-rouge">tabindex</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">tabindex=</span><span class="s">"0"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>Some text<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="failed-example-5">Failed Example 5</h4>
+
+<p><a href="#focusable" title="Definition of focusable">Focusable</a> <code class="language-plaintext highlighter-rouge">summary</code> element.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;details</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;summary&gt;</span>Some button<span class="nt">&lt;/summary&gt;</span>
+	<span class="nt">&lt;p&gt;</span>Some details<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/details&gt;</span>
+</code></pre></div></div>
+
+<h3 id="inapplicable">Inapplicable</h3>
+
+<h4 id="inapplicable-example-1">Inapplicable Example 1</h4>
+
+<p>Ignore <code class="language-plaintext highlighter-rouge">aria-hidden</code> with null value.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">aria-hidden</span><span class="nt">&gt;</span>Some button<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-2">Inapplicable Example 2</h4>
+
+<p>Ignore <code class="language-plaintext highlighter-rouge">aria-hidden</code> false.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">aria-hidden=</span><span class="s">"false"</span><span class="nt">&gt;</span>Some text<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h4 id="inapplicable-example-3">Inapplicable Example 3</h4>
+
+<p>Incorrect value of <code class="language-plaintext highlighter-rouge">aria-hidden</code>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">aria-hidden=</span><span class="s">"yes"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;p&gt;</span>Some text<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h2 id="glossary">Glossary</h2>
+
+<h3 id="attribute-value">Attribute value</h3>
+
+<p>The <em>attribute value</em> of a content attribute set on an HTML element is the value that the attribute gets after being parsed and computed according to specifications. It may differ from the value that is actually written in the HTML code due to trimming whitespace or non-digits characters, default values, or case-insensitivity.</p>
+
+<p>Some notable case of attribute value, among others:</p>
+
+<ul>
+  <li>For <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#enumerated-attribute" title="HTML Specification of Enumerated Attribute">enumerated attributes</a>, the <em>attribute value</em> is either the state of the attribute, or the keyword that maps to it; even for the default states. Thus <code class="language-plaintext highlighter-rouge">&lt;input type="image" /&gt;</code> has an attribute value of either <code class="language-plaintext highlighter-rouge">Image Button</code> (the state) or <code class="language-plaintext highlighter-rouge">image</code> (the keyword mapping to it), both formulations having the same meaning; similarly, “an input element with a <code class="language-plaintext highlighter-rouge">type</code> <em>attribute value</em> of <code class="language-plaintext highlighter-rouge">Text</code>” can be either <code class="language-plaintext highlighter-rouge">&lt;input type="text" /&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;input /&gt;</code> (missing value default), or <code class="language-plaintext highlighter-rouge">&lt;input type="invalid" /&gt;</code> (invalid value default).</li>
+  <li>For <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes" title="HTML Specification of Boolean Attribute">boolean attributes</a>, the <em>attribute value</em> is <code class="language-plaintext highlighter-rouge">true</code> when the attribute is present and <code class="language-plaintext highlighter-rouge">false</code> otherwise. Thus <code class="language-plaintext highlighter-rouge">&lt;button disabled&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;button disabled="disabled"&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;button disabled=""&gt;</code> all have a <code class="language-plaintext highlighter-rouge">disabled</code> <em>attribute value</em> of <code class="language-plaintext highlighter-rouge">true</code>.</li>
+  <li>For attributes whose value is used in a case-insensitive context, the <em>attribute value</em> is the lowercase version of the value written in the HTML code.</li>
+  <li>For attributes that accept <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#numbers" title="HTML Specification of Number Parsing">numbers</a>, the <em>attribute value</em> is the result of parsing the value written in the HTML code according to the rules for parsing this kind of number.</li>
+  <li>For attributes that accept sets of tokens, whether <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#space-separated-tokens" title="HTML Specification of Space Separated Tokens">space separated</a> or <a href="https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#comma-separated-tokens" title="HTML Specification of Comma Separated Tokens">comma separated</a>, the <em>attribute value</em> is the set of tokens obtained after parsing the set and, depending on the case, converting its items to lowercase (if the set is used in a case-insensitive context).</li>
+  <li>For <code class="language-plaintext highlighter-rouge">aria-*</code> attributes, the <em>attribute value</em> is computed as indicated in the <a href="https://www.w3.org/TR/wai-aria-1.1/#propcharacteristic_value" title="WAI-ARIA Specification of States and Properties Value">WAI-ARIA specification</a> and the <a href="https://www.w3.org/TR/html-aam-1.0/#html-attribute-state-and-property-mappings" title="Specification of HTML attributes value mapping to ARIA states and properties">HTML Accessibility API Mappings</a>.</li>
+</ul>
+
+<p>This list is not exhaustive, and only serves as an illustration for some of the most common cases.</p>
+
+<p>The <em>attribute value</em> of an <a href="https://heycam.github.io/webidl/#idl-attributes" title="Definition of Web IDL Attribute (Editor's Draft)">IDL attribute</a> is the value returned on getting it. Note that when an <a href="https://heycam.github.io/webidl/#idl-attributes" title="Definition of Web IDL Attribute (Editor's Draft)">IDL attribute</a> <a href="https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#reflecting-content-attributes-in-idl-attributes" title="HTML specification of Reflecting Content Attributes in IDL Attributes">reflects</a> a content attribute, they have the same attribute value.</p>
+
+<h3 id="focusable">Focusable</h3>
+
+<p>Elements that can become the target of keyboard input as described in the <a href="https://www.w3.org/TR/html">HTML</a> specification of <a href="https://html.spec.whatwg.org/#focusable-area">focusable</a> and <a href="https://html.spec.whatwg.org/#specially-focusable">can be focused</a>.</p>
+
+<h3 id="outcome">Outcome</h3>
+
+<p>An <em>outcome</em> is a conclusion that comes from evaluating an ACT Rule on a <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> or one of its constituent <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. An outcome can be one of the three following types:</p>
+
+<ul>
+  <li><strong>Inapplicable:</strong> No part of the test subject matches the applicability</li>
+  <li><strong>Passed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> meets all expectations</li>
+  <li><strong>Failed:</strong> A <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a> does not meet all expectations</li>
+</ul>
+
+<p><strong>Note:</strong> A rule has one <code class="language-plaintext highlighter-rouge">passed</code> or <code class="language-plaintext highlighter-rouge">failed</code> outcome for every <a href="https://www.w3.org/TR/act-rules-format/#test-target">test target</a>. When there are no test targets the rule has one <code class="language-plaintext highlighter-rouge">inapplicable</code> outcome. This means that each <a href="https://www.w3.org/TR/act-rules-format/#test-subject">test subject</a> will have one or more outcomes.</p>
+
+<p><strong>Note:</strong> Implementations using the <a href="https://www.w3.org/TR/EARL10-Schema/">EARL10-Schema</a> can express the outcome with the <a href="https://www.w3.org/TR/EARL10-Schema/#outcome">outcome property</a>. In addition to <code class="language-plaintext highlighter-rouge">passed</code>, <code class="language-plaintext highlighter-rouge">failed</code> and <code class="language-plaintext highlighter-rouge">inapplicable</code>, EARL 1.0 also defined an <code class="language-plaintext highlighter-rouge">incomplete</code> outcome. While this cannot be the outcome of an ACT Rule when applied in its entirety, it often happens that rules are only partially evaluated. For example, when applicability was automated, but the expectations have to be evaluated manually. Such “interim” results can be expressed with the <code class="language-plaintext highlighter-rouge">incomplete</code> outcome.</p>
+
+<h3 id="visible">Visible</h3>
+
+<p>Content perceivable through sight.</p>
+
+<p>Content is considered <em>visible</em> if making it fully transparent would result in a difference in the pixels rendered for any part of the document that is currently within the viewport or can be brought into the viewport via scrolling.</p>
+
+<p><a href="https://www.w3.org/TR/WCAG21/#dfn-content">Content is defined in WCAG</a>.</p>
+
+<p>For more details, see <a href="https://act-rules.github.io/pages/examples/visible/">examples of visible</a>.</p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>This rule was written in the <a href="https://w3.org/community/act-r/">ACT Rules community group</a>, 
+with the support of the EU-funded <a href="https://www.w3.org/WAI/about/projects/wai-tools/">WAI-Tools Project</a>.</p>
+
+<h3 id="authors">Authors</h3>
+
+<ul>
+  <li><a href="https://github.com/wilcofiers">Wilco Fiers</a></li>
+</ul>
+
+<h2 id="changelog">Changelog</h2>
+
+<p>This is the first version of this ACT rule.</p>
+
+
+
+    <aside class="box box-icon box-space-above" id="helpimprove"><header class="box-h  box-h-icon box-h-space-above box-h-icon"> <svg focusable="false" aria-hidden="true" class="icon-comments "><use xlink:href="/WAI/assets/images/icons.svg#icon-comments"></use></svg> <h2> Help improve this page </h2></header><div class="box-i"><p>Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list <a href="mailto:wai-eo-editors@w3.org?subject=[en]%20Element%20with%20aria-hidden%20has%20no%20focusable%20content">wai-eo-editors@w3.org</a> or via GitHub.</p>
+<div class="button-group">
+    <a href="mailto:wai-eo-editors@w3.org?subject=[en]%20Element%20with%20aria-hidden%20has%20no%20focusable%20content&body=[put%20comment%20here...]" class="button"><span>E-mail</span></a>
+    <a href="https://github.com/w3c/wcag-act-rules/edit/master/content/aria-hidden-no-focusable-content-6cfa84.md"  class="button"><span>Fork &amp; Edit on GitHub</span></a><a href="https://github.com/w3c/wcag-act-rules/issues/new" class="button"><span>New GitHub Issue</span></a>
+</div></div></aside>
+
+
+    <a class="button button-backtotop" href="#top"><span><svg focusable="false" aria-hidden="true" class="icon-arrow-up "><use xlink:href="/WAI/assets/images/icons.svg#icon-arrow-up"></use></svg> Back to Top</span></a>
+  </main>
+</div>
+
+
+  
+
+
+<footer class="site-footer grid-4q" aria-label="Site">
+  <div class="q1-start q3-end about">
+    <div>
+      <p><a class="largelink" href="https://www.w3.org/WAI/" lang="en" dir="auto" translate="no">W3C Web Accessibility Initiative (WAI)</a></p>
+      <p>Strategies, standards, and supporting resources to make the Web accessible to people with disabilities.</p>
+    </div>
+    <div class="social" lang="en" dir="auto" translate="no">
+      <ul>
+        <li><a href="https://twitter.com/w3c_wai"><svg focusable="false" aria-hidden="true" class="icon-twitter "><use xlink:href="/WAI/assets/images/icons.svg#icon-twitter"></use></svg> Twitter</a></li>
+        <li><a href="https://www.w3.org/WAI/feed.xml"><svg focusable="false" aria-hidden="true" class="icon-rss "><use xlink:href="/WAI/assets/images/icons.svg#icon-rss"></use></svg> Feed</a></li>
+        <li><a href="https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlistsv"><svg focusable="false" aria-hidden="true" class="icon-youtube "><use xlink:href="/WAI/assets/images/icons.svg#icon-youtube"></use></svg> YouTube</a></li>
+        <li><a href="https://www.w3.org/WAI/news/subscribe/" class="button">Get News in Email</a></li>
+      </ul>
+    </div>
+    <div lang="en" dir="auto"  translate="no">
+      <p>Copyright &#xA9; 2021 W3C <sup>&#xAE;</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>, <a href="https://ev.buaa.edu.cn">Beihang</a>) <a href="/WAI/about/using-wai-material/">Permission to Use WAI Material</a>.</p>
+    </div>
+  </div>
+  <div lang="en" dir="auto"  translate="no" class="q4-start q4-end">
+    <ul style="margin-bottom:0">
+      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+      <li><a href="/WAI/sitemap/">Site Map</a></li>
+      <li><a href="/WAI/news/">News</a></li>
+      <li><a href="/WAI/sitemap/#archive">Archive</a></li>
+      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+      <li><a href="/WAI/translations/"> Translations</a></li>
+      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+    </ul>
+  </div>
+</footer><!-- Details4Everybody -->
+<script src="/WAI/assets/scripts/details4everybody.js?1624588661659145651"></script>
+<!-- SVG4Everybody -->
+<script src="/WAI/assets/scripts/svg4everybody.js?1624588661659145651"></script>
+<script>
+  svg4everybody();
+</script><script>
+  var translationStrings = {};
+</script>
+<!-- Matomo -->
+<script>
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//www.w3.org/analytics/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '328']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//www.w3.org/analytics/piwik/piwik.php?idsite=328&rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+
+
+  </body>
+</html>
